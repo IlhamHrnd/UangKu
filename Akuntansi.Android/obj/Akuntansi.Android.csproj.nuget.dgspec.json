@@ -1,0 +1,175 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.Android/Akuntansi.Android.csproj": {}
+  },
+  "projects": {
+    "/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.Android/Akuntansi.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.Android/Akuntansi.Android.csproj",
+        "projectName": "Akuntansi.Android",
+        "projectPath": "/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.Android/Akuntansi.Android.csproj",
+        "packagesPath": "/Users/ilhamhrnd/.nuget/packages/",
+        "outputPath": "/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.Android/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/ilhamhrnd/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid10.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid10.0": {
+            "projectReferences": {
+              "/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi/Akuntansi.csproj": {
+                "projectPath": "/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi/Akuntansi.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid10.0": {
+          "dependencies": {
+            "Com.Airbnb.Android.Lottie": {
+              "target": "Package",
+              "version": "[4.2.2, )"
+            },
+            "Xamarin.Android.Support.Core.Utils": {
+              "target": "Package",
+              "version": "[28.0.0.3, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2337, )"
+            }
+          }
+        }
+      }
+    },
+    "/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi/Akuntansi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi/Akuntansi.csproj",
+        "projectName": "Akuntansi",
+        "projectPath": "/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi/Akuntansi.csproj",
+        "packagesPath": "/Users/ilhamhrnd/.nuget/packages/",
+        "outputPath": "/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ilhamhrnd/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Com.Airbnb.Xamarin.Forms.Lottie": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.1.7, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Syncfusion.Xamarin.Buttons": {
+              "target": "Package",
+              "version": "[19.4.0.54, )"
+            },
+            "Syncfusion.Xamarin.Cards": {
+              "target": "Package",
+              "version": "[19.4.0.54, )"
+            },
+            "Syncfusion.Xamarin.Core": {
+              "target": "Package",
+              "version": "[19.4.0.54, )"
+            },
+            "Syncfusion.Xamarin.SfBackdrop": {
+              "target": "Package",
+              "version": "[19.4.0.54, )"
+            },
+            "Syncfusion.Xamarin.SfBusyIndicator": {
+              "target": "Package",
+              "version": "[19.4.0.54, )"
+            },
+            "Syncfusion.Xamarin.SfChart": {
+              "target": "Package",
+              "version": "[19.4.0.54, )"
+            },
+            "Syncfusion.Xamarin.SfListView": {
+              "target": "Package",
+              "version": "[19.4.0.54, )"
+            },
+            "Syncfusion.Xamarin.SfNavigationDrawer": {
+              "target": "Package",
+              "version": "[19.4.0.54, )"
+            },
+            "Syncfusion.Xamarin.SfPicker": {
+              "target": "Package",
+              "version": "[19.4.0.54, )"
+            },
+            "Syncfusion.Xamarin.SfPullToRefresh": {
+              "target": "Package",
+              "version": "[19.4.0.54, )"
+            },
+            "Syncfusion.Xamarin.SfTabView": {
+              "target": "Package",
+              "version": "[19.4.0.54, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2337, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21463.6/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:Model="clr-namespace:Akuntansi.Model.Account"
+    xmlns:sfavatar="clr-namespace:Syncfusion.XForms.AvatarView;assembly=Syncfusion.Core.XForms"
+    xmlns:sfborder="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
+    xmlns:sfinput="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
+    xmlns:sfbutton="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+    xmlns:sfbusy="clr-namespace:Syncfusion.SfBusyIndicator.XForms;assembly=Syncfusion.SfBusyIndicator.XForms"
+    Title="Daftar Baru"
+    x:Class="Akuntansi.View.Account.DaftarBaruView">
+    <ContentPage.BindingContext>
+        <Model:DaftarBaruModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <StackLayout Style="{StaticResource Key=BaseStackLayout}">
+            <ScrollView Style="{StaticResource Key=BaseScrollView}">
+                <StackLayout HorizontalOptions="FillAndExpand"
+                             VerticalOptions="FillAndExpand"
+                             Margin="10">
+                    <sfbusy:SfBusyIndicator Style="{StaticResource Key=BaseSfBusy}"
+                                            IsBusy="{Binding IsBusy}"
+                                            Title="{Binding LoadingTxt}"/>
+                    <sfavatar:SfAvatarView Style="{StaticResource Key=BaseSfAvatar}"
+                                           ImageSource="DaftarBaru.png"
+                                           HeightRequest="200"
+                                           WidthRequest="200"/>
+                    <Label Text="Daftar Baru"
+                           Style="{StaticResource Key=BaseLabelLarge}"/>
+                    <sfborder:SfBorder Style="{StaticResource Key=BaseSfBorder}"
+                                       HeightRequest="400">
+                        <Grid HorizontalOptions="Center"
+                              VerticalOptions="Start"
+                              Margin="5,20,5,10">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Label Text="Isi Data Dengan Lengkap"
+                                   Style="{StaticResource Key=BaseLabel}"
+                                   Grid.Row="0"
+                                   Grid.Column="0"/>
+                            <sfinput:SfTextInputLayout Style="{StaticResource Key=BaseSfTextInput}"
+                                                       CharMaxLength="15"
+                                                       Hint="Username"
+                                                       Grid.Row="1"
+                                                       Grid.Column="0"
+                                                       Grid.ColumnSpan="2">
+                                <Entry Style="{StaticResource Key=BaseEntry}"
+                                       MaxLength="15"
+                                       Text="{Binding Username}"
+                                       Keyboard="Text"/>
+                                <sfinput:SfTextInputLayout.LeadingView>
+                                    <sfavatar:SfAvatarView Style="{StaticResource Key=BaseSfAvatar}"
+                                                           ImageSource="Username.png"/>
+                                </sfinput:SfTextInputLayout.LeadingView>
+                            </sfinput:SfTextInputLayout>
+                            <sfinput:SfTextInputLayout Style="{StaticResource Key=BaseSfTextInput}"
+                                                       CharMaxLength="10"
+                                                       Hint="Nama Depan"
+                                                       Grid.Row="2"
+                                                       Grid.Column="0">
+                                <Entry Style="{StaticResource Key=BaseEntry}"
+                                       MaxLength="10"
+                                       Text="{Binding NamaDepan}"/>
+                                <sfinput:SfTextInputLayout.LeadingView>
+                                    <sfavatar:SfAvatarView Style="{StaticResource Key=BaseSfAvatar}"
+                                                           ImageSource="NamaDepan.png"/>
+                                </sfinput:SfTextInputLayout.LeadingView>
+                            </sfinput:SfTextInputLayout>
+                            <sfinput:SfTextInputLayout Style="{StaticResource Key=BaseSfTextInput}"
+                                                       CharMaxLength="10"
+                                                       Hint="Nama Belakang"
+                                                       Grid.Row="2"
+                                                       Grid.Column="1">
+                                <Entry Style="{StaticResource Key=BaseEntry}"
+                                       MaxLength="10"
+                                       Text="{Binding NamaBelakang}"/>
+                                <sfinput:SfTextInputLayout.LeadingView>
+                                    <sfavatar:SfAvatarView Style="{StaticResource Key=BaseSfAvatar}"
+                                                           ImageSource="NamaBelakang.png"/>
+                                </sfinput:SfTextInputLayout.LeadingView>
+                            </sfinput:SfTextInputLayout>
+                            <sfinput:SfTextInputLayout Style="{StaticResource Key=BaseSfTextInput}"
+                                                       CharMaxLength="15"
+                                                       Hint="Password"
+                                                       EnablePasswordVisibilityToggle="True"
+                                                       Grid.Row="3"
+                                                       Grid.Column="0"
+                                                       Grid.ColumnSpan="2">
+                                <Entry Style="{StaticResource Key=BaseEntry}"
+                                       MaxLength="15"
+                                       Text="{Binding Password}"
+                                       Keyboard="Text"
+                                       IsPassword="True"/>
+                                <sfinput:SfTextInputLayout.LeadingView>
+                                    <sfavatar:SfAvatarView Style="{StaticResource Key=BaseSfAvatar}"
+                                                           ImageSource="Password.png"/>
+                                </sfinput:SfTextInputLayout.LeadingView>
+                            </sfinput:SfTextInputLayout>
+                            <sfinput:SfTextInputLayout Style="{StaticResource Key=BaseSfTextInput}"
+                                                       CharMaxLength="15"
+                                                       Hint="Konfirmasi Password"
+                                                       EnablePasswordVisibilityToggle="True"
+                                                       Grid.Row="4"
+                                                       Grid.Column="0"
+                                                       Grid.ColumnSpan="2">
+                                <Entry Style="{StaticResource Key=BaseEntry}"
+                                       MaxLength="15"
+                                       Text="{Binding ConfirmPass}"
+                                       Keyboard="Text"
+                                       IsPassword="True"/>
+                                <sfinput:SfTextInputLayout.LeadingView>
+                                    <sfavatar:SfAvatarView Style="{StaticResource Key=BaseSfAvatar}"
+                                                           ImageSource="Password.png"/>
+                                </sfinput:SfTextInputLayout.LeadingView>
+                            </sfinput:SfTextInputLayout>
+                        </Grid>
+                    </sfborder:SfBorder>
+                    <sfbutton:SfButton Style="{StaticResource Key=BaseSfButton}"
+                                       Text="Daftar Baru"
+                                       Margin="30"
+                                       Command="{Binding DaftarBaru}"/>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

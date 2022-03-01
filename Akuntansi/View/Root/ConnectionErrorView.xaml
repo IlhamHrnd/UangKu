@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:lottie="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
+    xmlns:sfpull="clr-namespace:Syncfusion.SfPullToRefresh.XForms;assembly=Syncfusion.SfPullToRefresh.XForms"
+    xmlns:Model="clr-namespace:Akuntansi.Model.Root"
+    x:Class="Akuntansi.View.Root.ConnectionErrorView">
+    <ContentPage.BindingContext>
+        <Model:ConnectionErrorModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <sfpull:SfPullToRefresh Style="{StaticResource Key=BaseSfPullToRefresh}"
+                                IsRefreshing="{Binding IsRefreshing}"
+                                RefreshCommand="{Binding Refresh}">
+            <sfpull:SfPullToRefresh.PullableContent>
+                <StackLayout Style="{StaticResource Key=BaseStackLayout}">
+                    <lottie:AnimationView Style="{StaticResource Key=BaseLottie}"
+                                          Margin="20"/>
+                    <StackLayout HorizontalOptions="CenterAndExpand"
+                                 VerticalOptions="StartAndExpand">
+                        <Label Text="{Binding Message}"
+                               Style="{StaticResource Key=BaseLabelLarge}"
+                               HorizontalTextAlignment="Center"/>
+                        <Label Text="{Binding Message2}"
+                               Style="{StaticResource Key=BaseLabelMedium}"
+                               HorizontalTextAlignment="Center"/>
+                    </StackLayout>
+                </StackLayout>
+            </sfpull:SfPullToRefresh.PullableContent>
+        </sfpull:SfPullToRefresh>
+    </ContentPage.Content>
+</ContentPage>

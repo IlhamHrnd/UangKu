@@ -1,0 +1,123 @@
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/Akuntansi.iOS.exe
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/Akuntansi.iOS.pdb
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/MySqlConnector.dll
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/Xamarin.Essentials.dll
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/Xamarin.Essentials.pdb
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/Xamarin.Forms.Core.dll
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/Xamarin.Forms.Core.pdb
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/Xamarin.Forms.Platform.dll
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/Xamarin.Forms.Platform.iOS.dll
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/Xamarin.Forms.Platform.iOS.pdb
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/Xamarin.Forms.Xaml.dll
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/Xamarin.Forms.Xaml.pdb
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/ar/Xamarin.Forms.Platform.iOS.resources.dll
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/ca/Xamarin.Forms.Platform.iOS.resources.dll
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/cs/Xamarin.Forms.Platform.iOS.resources.dll
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/da/Xamarin.Forms.Platform.iOS.resources.dll
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/de/Xamarin.Forms.Platform.iOS.resources.dll
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/el/Xamarin.Forms.Platform.iOS.resources.dll
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/es/Xamarin.Forms.Platform.iOS.resources.dll
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/fi/Xamarin.Forms.Platform.iOS.resources.dll
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/fr/Xamarin.Forms.Platform.iOS.resources.dll
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/he/Xamarin.Forms.Platform.iOS.resources.dll
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/hi/Xamarin.Forms.Platform.iOS.resources.dll
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/hr/Xamarin.Forms.Platform.iOS.resources.dll
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/hu/Xamarin.Forms.Platform.iOS.resources.dll
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/id/Xamarin.Forms.Platform.iOS.resources.dll
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/it/Xamarin.Forms.Platform.iOS.resources.dll
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/ja/Xamarin.Forms.Platform.iOS.resources.dll
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/ko/Xamarin.Forms.Platform.iOS.resources.dll
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/ms/Xamarin.Forms.Platform.iOS.resources.dll
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/nb/Xamarin.Forms.Platform.iOS.resources.dll
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/nl/Xamarin.Forms.Platform.iOS.resources.dll
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/pl/Xamarin.Forms.Platform.iOS.resources.dll
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/pt-br/Xamarin.Forms.Platform.iOS.resources.dll
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/pt/Xamarin.Forms.Platform.iOS.resources.dll
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/ro/Xamarin.Forms.Platform.iOS.resources.dll
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/ru/Xamarin.Forms.Platform.iOS.resources.dll
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/sk/Xamarin.Forms.Platform.iOS.resources.dll
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/sv/Xamarin.Forms.Platform.iOS.resources.dll
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/th/Xamarin.Forms.Platform.iOS.resources.dll
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/tr/Xamarin.Forms.Platform.iOS.resources.dll
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/uk/Xamarin.Forms.Platform.iOS.resources.dll
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/vi/Xamarin.Forms.Platform.iOS.resources.dll
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/Akuntansi.dll
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/Akuntansi.pdb
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/obj/iPhone/Debug/ibtool/_BundleResourceWithLogicalName.items
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/obj/iPhone/Debug/actool/_PartialAppManifest.items
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/obj/iPhone/Debug/actool/_BundleResourceWithLogicalName.items
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/obj/iPhone/Debug/coremlc/_PartialAppManifest.items
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/obj/iPhone/Debug/coremlc/_BundleResourceWithLogicalName.items
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/obj/iPhone/Debug/optimized/
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/obj/iPhone/Debug/Akuntansi.iOS.csprojAssemblyReference.cache
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/obj/iPhone/Debug/XamlC.stamp
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/obj/iPhone/Debug/Akuntansi.iOS.csproj.CopyComplete
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/obj/iPhone/Debug/Akuntansi.iOS.exe
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/obj/iPhone/Debug/Akuntansi.iOS.pdb
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/Akuntansi.iOS.exe
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/Akuntansi.iOS.pdb
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/MySqlConnector.dll
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/Xamarin.Essentials.dll
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/Xamarin.Essentials.pdb
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/Xamarin.Forms.Core.dll
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/Xamarin.Forms.Core.pdb
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/Xamarin.Forms.Platform.dll
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/Xamarin.Forms.Platform.iOS.dll
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/Xamarin.Forms.Platform.iOS.pdb
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/Xamarin.Forms.Xaml.dll
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/Xamarin.Forms.Xaml.pdb
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/ar/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/ca/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/cs/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/da/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/de/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/el/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/es/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/fi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/fr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/he/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/hi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/hr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/hu/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/id/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/it/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/ja/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/ko/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/ms/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/nb/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/nl/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/pl/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/pt-br/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/pt/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/ro/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/ru/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/sk/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/sv/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/th/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/tr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/uk/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/vi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/Akuntansi.dll
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhone/Debug/Akuntansi.pdb
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/obj/iPhone/Debug/Akuntansi.iOS.csprojAssemblyReference.cache
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/obj/iPhone/Debug/Akuntansi.iOS.csproj.CopyComplete
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/obj/iPhone/Debug/Akuntansi.iOS.exe
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/obj/iPhone/Debug/Akuntansi.iOS.pdb
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/obj/iPhone/Debug/Akuntansi.iOS.csproj.CoreCompileInputs.cache
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/obj/iPhone/Debug/device-builds/iphone7.2-12.4.8/ibtool/_BundleResourceWithLogicalName.items
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/obj/iPhone/Debug/device-builds/iphone7.2-12.4.8/actool/_PartialAppManifest.items
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/obj/iPhone/Debug/device-builds/iphone7.2-12.4.8/actool/_BundleResourceWithLogicalName.items
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/obj/iPhone/Debug/device-builds/iphone7.2-12.4.8/coremlc/_PartialAppManifest.items
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/obj/iPhone/Debug/device-builds/iphone7.2-12.4.8/coremlc/_BundleResourceWithLogicalName.items
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/obj/iPhone/Debug/device-builds/iphone7.2-12.4.8/optimized/HomeIco.png
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/obj/iPhone/Debug/device-builds/iphone7.2-12.4.8/optimized/Transaction.png
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/obj/iPhone/Debug/device-builds/iphone7.2-12.4.8/optimized/Info.png
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/obj/iPhone/Debug/device-builds/iphone7.2-12.4.8/optimized/Settings.png
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/obj/iPhone/Debug/device-builds/iphone7.2-12.4.8/optimized/LogoGunadarma.png
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/obj/iPhone/Debug/device-builds/iphone7.2-12.4.8/optimized/

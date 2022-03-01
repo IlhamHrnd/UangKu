@@ -1,0 +1,63 @@
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi/bin/Debug/netstandard2.0/Akuntansi.deps.json
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi/bin/Debug/netstandard2.0/Akuntansi.dll
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi/bin/Debug/netstandard2.0/ref/Akuntansi.dll
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi/bin/Debug/netstandard2.0/Akuntansi.pdb
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/Akuntansi.csprojAssemblyReference.cache
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/App.xaml.g.cs
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/BuatBaru.xaml.g.cs
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/Login.xaml.g.cs
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/LupaPass.xaml.g.cs
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/MenuUtama.xaml.g.cs
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/Akuntansi.AssemblyInfoInputs.cache
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/Akuntansi.AssemblyInfo.cs
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/XamlC.stamp
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/Akuntansi.dll
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/ref/Akuntansi.dll
+E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/Akuntansi.pdb
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi/bin/Debug/netstandard2.0/Akuntansi.deps.json
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi/bin/Debug/netstandard2.0/Akuntansi.dll
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi/bin/Debug/netstandard2.0/ref/Akuntansi.dll
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi/bin/Debug/netstandard2.0/Akuntansi.pdb
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/BuatBaru.xaml.g.cs
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/Kategori.xaml.g.cs
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/Lap_Pemasukan.xaml.g.cs
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/Lap_Pengeluaran.xaml.g.cs
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/ListUser.xaml.g.cs
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/Login.xaml.g.cs
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/LupaPass.xaml.g.cs
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/MenuUtama.xaml.g.cs
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/Semua.xaml.g.cs
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/TransaksiBaru.xaml.g.cs
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/Assets/Styles.css.g.cs
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/Akuntansi.AssemblyInfoInputs.cache
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/Akuntansi.AssemblyInfo.cs
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/Akuntansi.csproj.CoreCompileInputs.cache
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/Akuntansi.dll
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/ref/Akuntansi.dll
+/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/Akuntansi.pdb
+/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi/bin/Debug/netstandard2.0/Akuntansi.deps.json
+/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi/bin/Debug/netstandard2.0/Akuntansi.dll
+/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi/bin/Debug/netstandard2.0/ref/Akuntansi.dll
+/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi/bin/Debug/netstandard2.0/Akuntansi.pdb
+/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/Akuntansi.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/View/Account/DaftarBaruView.xaml.g.cs
+/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/View/Account/LupaPasswordView.xaml.g.cs
+/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/View/Home/HomeAdminView.xaml.g.cs
+/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/View/Index/LoginView.xaml.g.cs
+/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/View/Root/ConnectionErrorView.xaml.g.cs
+/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/View/Transaction/PemasukanView.xaml.g.cs
+/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/View/Transaction/RiwayatTransaksiView.xaml.g.cs
+/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/View/Transaction/TransaksiBaruView.xaml.g.cs
+/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/Akuntansi.AssemblyInfoInputs.cache
+/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/Akuntansi.AssemblyInfo.cs
+/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/Akuntansi.csproj.CoreCompileInputs.cache
+/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/Akuntansi.dll
+/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/ref/Akuntansi.dll
+/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/Akuntansi.pdb
+/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/Akuntansi.csproj.AssemblyReference.cache
+/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/View/Account/ProfileView.xaml.g.cs
+/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/View/Home/HomeUserView.xaml.g.cs

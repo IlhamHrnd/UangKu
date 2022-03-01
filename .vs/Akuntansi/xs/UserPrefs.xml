@@ -1,0 +1,64 @@
+﻿<Properties StartupConfiguration="{61B8C96D-307C-43EC-B40B-E4A3BA449A73}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Akuntansi/ViewModel/Home/HomeViewModel.cs">
+    <Files>
+      <File FileName="Akuntansi/App.xaml" Line="70" Column="213" IsPinned="True" />
+      <File FileName="Akuntansi/Model/Home/HomeModel.cs" />
+      <File FileName="Akuntansi/View/Home/HomeAdminView.xaml" />
+      <File FileName="Akuntansi/View/Home/HomeAdminView.xaml.cs" />
+      <File FileName="Akuntansi/ViewModel/Home/HomeViewModel.cs" Line="74" Column="33" />
+      <File FileName="Akuntansi/View/Transaction/PemasukanView.xaml" />
+      <File FileName="Akuntansi/View/Home/HomeUserView.xaml" />
+      <File FileName="Akuntansi/View/Home/HomeUserView.xaml.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Akuntansi" expanded="True">
+            <Node name="Akuntansi" expanded="True">
+              <Node name="Model" expanded="True">
+                <Node name="Account" expanded="True" />
+                <Node name="Helper" expanded="True" />
+                <Node name="Home" expanded="True" />
+                <Node name="Index" expanded="True" />
+                <Node name="Root" expanded="True" />
+                <Node name="Transaction" expanded="True" />
+              </Node>
+              <Node name="View" expanded="True">
+                <Node name="Account" expanded="True">
+                  <Node name="ProfileView.xaml" expanded="True" />
+                </Node>
+                <Node name="Home" expanded="True">
+                  <Node name="HomeAdminView.xaml" expanded="True" />
+                  <Node name="HomeUserView.xaml" expanded="True" />
+                </Node>
+                <Node name="Transaction" expanded="True" />
+              </Node>
+              <Node name="ViewModel" expanded="True">
+                <Node name="Account" expanded="True" />
+                <Node name="Home" expanded="True">
+                  <Node name="HomeViewModel.cs" selected="True" />
+                </Node>
+                <Node name="Index" expanded="True" />
+                <Node name="Root" expanded="True" />
+                <Node name="Transaction" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Akuntansi.Android" expanded="True" />
+            <Node name="Akuntansi.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Akuntansi.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E22B05D4-FF29-46A8-A29A-F25C870BC6EA" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Akuntansi.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.pixel_2_xl_pie_9_0_-_api_28" />
+  <Debugger.DebugSourceFolders>
+    <String>/Library/Frameworks/Xamarin.iOS.framework/Versions/15.4.0.0/src/Xamarin.iOS</String>
+  </Debugger.DebugSourceFolders>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

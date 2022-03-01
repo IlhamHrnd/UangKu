@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:Model="clr-namespace:Akuntansi.Model.Transaction"
+    xmlns:sfchart="clr-namespace:Syncfusion.SfChart.XForms;assembly=Syncfusion.SfChart.XForms"
+    xmlns:sftabview="clr-namespace:Syncfusion.XForms.TabView;assembly=Syncfusion.SfTabView.XForms"
+    xmlns:sflistview="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
+    xmlns:sfborder="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
+    xmlns:sfavatar="clr-namespace:Syncfusion.XForms.AvatarView;assembly=Syncfusion.Core.XForms"
+    Title="Laporan Pemasukan"
+    x:Class="Akuntansi.View.Transaction.PemasukanView">
+    <ContentPage.BindingContext>
+        <Model:PemasukanModel/>
+    </ContentPage.BindingContext>
+    <sftabview:SfTabView Style="{StaticResource Key=BaseSfTabView}">
+        <sftabview:SfTabView.SelectionIndicatorSettings>
+            <sftabview:SelectionIndicatorSettings Color="{AppThemeBinding Dark={StaticResource Key=BackgroundSecondaryDarkMode},Light={StaticResource Key=BackgroundSecondaryLightMode},Default={StaticResource Key=BackgroundSecondaryLightMode}}"
+                                                  Position="Bottom"
+                                                  AnimationDuration="500"/>
+        </sftabview:SfTabView.SelectionIndicatorSettings>
+        <sftabview:SfTabItem Title="Chart"
+                             Style="{StaticResource Key=BaseSfTabItem}">
+            <sftabview:SfTabItem.Content>
+                <sfchart:SfChart>
+                    <sfchart:SfChart.Title>
+                        <sfchart:ChartTitle Text="Pemasukan"
+                                            FontSize="20"
+                                            TextColor="{AppThemeBinding Dark={StaticResource Key=LabelDarkMode},Light={StaticResource Key=LabelLightMode},Default={StaticResource Key=LabelLightMode}}"/>
+                    </sfchart:SfChart.Title>
+                    <sfchart:SfChart.Series>
+                        <sfchart:PieSeries ItemsSource="{Binding ListPemasukan}"
+                                           XBindingPath="ListKategori"
+                                           YBindingPath="ListJumlahChart"
+                                           EnableAnimation="True"
+                                           AnimationDuration="0.5"
+                                           EnableTooltip="True"
+                                           EnableSmartLabels="True"
+                                           ConnectorLineType="Bezier"
+                                           DataMarkerPosition="OutsideExtended">
+                            <sfchart:PieSeries.DataMarker>
+                                <sfchart:ChartDataMarker LabelContent="Percentage"
+                                                         ShowLabel="True">
+                                    <sfchart:ChartDataMarker.LabelStyle>
+                                        <sfchart:DataMarkerLabelStyle LabelPosition="Center"/>
+                                    </sfchart:ChartDataMarker.LabelStyle>
+                                </sfchart:ChartDataMarker>
+                            </sfchart:PieSeries.DataMarker>
+                        </sfchart:PieSeries>
+                    </sfchart:SfChart.Series>
+                    <sfchart:SfChart.ChartBehaviors>
+                        <sfchart:ChartTooltipBehavior FontSize="15"
+                                                      TextColor="{AppThemeBinding Dark={StaticResource Key=LabelDarkMode},Light={StaticResource Key=LabelLightMode},Default={StaticResource Key=LabelLightMode}}"/>
+                    </sfchart:SfChart.ChartBehaviors>
+                    <sfchart:SfChart.Legend>
+                        <sfchart:ChartLegend IsIconVisible="True"
+                                             ToggleSeriesVisibility="True"
+                                             OverflowMode="Scroll"
+                                             DockPosition="Top">
+                            <sfchart:ChartLegend.Title>
+                                <sfchart:ChartTitle Text="Kategori"
+                                                    FontSize="15"
+                                                    TextColor="{AppThemeBinding Dark={StaticResource Key=LabelDarkMode},Light={StaticResource Key=LabelLightMode},Default={StaticResource Key=LabelLightMode}}"/>
+                            </sfchart:ChartLegend.Title>
+                            <sfchart:ChartLegend.LabelStyle>
+                                <sfchart:ChartLegendLabelStyle FontSize="15"
+                                                               TextColor="{AppThemeBinding Dark={StaticResource Key=LabelDarkMode},Light={StaticResource Key=LabelLightMode},Default={StaticResource Key=LabelLightMode}}"/>
+                            </sfchart:ChartLegend.LabelStyle>
+                        </sfchart:ChartLegend>
+                    </sfchart:SfChart.Legend>
+                </sfchart:SfChart>
+            </sftabview:SfTabItem.Content>
+        </sftabview:SfTabItem>
+        <sftabview:SfTabItem Title="Laporan Detail"
+                             Style="{StaticResource Key=BaseSfTabItem}">
+            <sftabview:SfTabItem.Content>
+                <ScrollView Style="{StaticResource Key=BaseScrollView}">
+                    <StackLayout Style="{StaticResource Key=BaseStackLayout}">
+                        <Label Style="{StaticResource Key=BaseLabelMedium}"
+                               HorizontalTextAlignment="Center"
+                               Margin="0,5,0,0">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="Pemasukan Bulan "/>
+                                    <Span Text="{Binding Month}"/>
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                        <sflistview:SfListView Style="{StaticResource Key=BaseSfListView}"
+                                               ItemsSource="{Binding ListPemasukan}"
+                                               Margin="0,10,10,0"
+                                               Orientation="Horizontal"
+                                               HeightRequest="100"
+                                               WidthRequest="50">
+                            <sflistview:SfListView.ItemTemplate>
+                                <DataTemplate>
+                                    <sfborder:SfBorder Style="{StaticResource Key=BaseSfBorder}"
+                                                       HasShadow="False">
+                                        <Grid Margin="10">
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="50*"/>
+                                                <RowDefinition Height="50*"/>
+                                            </Grid.RowDefinitions>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="50*"/>
+                                                <ColumnDefinition Width="50*"/>
+                                            </Grid.ColumnDefinitions>
+                                            <sfavatar:SfAvatarView Style="{StaticResource Key=BaseSfAvatar}"
+                                                                   ImageSource="Transaction.png"
+                                                                   Grid.Column="0"
+                                                                   Grid.Row="0"
+                                                                   Grid.ColumnSpan="2"/>
+                                            <Label Style="{StaticResource Key=BaseLabelMedium}"
+                                                   Text="{Binding ListKategori}"
+                                                   VerticalTextAlignment="Center"
+                                                   Grid.Column="0"
+                                                   Grid.Row="1"/>
+                                            <Label Style="{StaticResource Key=BaseLabelMedium}"
+                                                   Text="{Binding ListJumlahString}"
+                                                   VerticalTextAlignment="Center"
+                                                   Grid.Column="1"
+                                                   Grid.Row="1"/>
+                                        </Grid>
+                                    </sfborder:SfBorder>
+                                </DataTemplate>
+                            </sflistview:SfListView.ItemTemplate>
+                        </sflistview:SfListView>
+                    </StackLayout>
+                </ScrollView>
+            </sftabview:SfTabItem.Content>
+        </sftabview:SfTabItem>
+    </sftabview:SfTabView>
+</ContentPage>

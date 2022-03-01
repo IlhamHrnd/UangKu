@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:Model="clr-namespace:Akuntansi.Model.Account"
+    xmlns:sfavatar="clr-namespace:Syncfusion.XForms.AvatarView;assembly=Syncfusion.Core.XForms"
+    xmlns:sfborder="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
+    xmlns:sfbusy="clr-namespace:Syncfusion.SfBusyIndicator.XForms;assembly=Syncfusion.SfBusyIndicator.XForms"
+    xmlns:sfgradient="clr-namespace:Syncfusion.XForms.Graphics;assembly=Syncfusion.Core.XForms"
+    x:Class="Akuntansi.View.Account.ProfileView"
+    Title="Profile">
+    <ContentPage.BindingContext>
+        <Model:ProfileModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <ScrollView Style="{StaticResource Key=BaseScrollView}">
+            <Grid Style="{StaticResource Key=BaseGrid}">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30*"/>
+                    <RowDefinition Height="70*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0"
+                      Grid.Row="0">
+                    <sfgradient:SfGradientView>
+                        <sfgradient:SfGradientView.BackgroundBrush>           
+                            <sfgradient:SfLinearGradientBrush>                
+                                <sfgradient:SfLinearGradientBrush.GradientStops>
+                                    <sfgradient:SfGradientStop Color="{AppThemeBinding Dark={StaticResource Key=BackgroundPrimaryDarkMode},Light={StaticResource Key=BackgroundPrimaryLightMode},Default={StaticResource Key=BackgroundPrimaryLightMode}}" Offset="0.4" />
+                                    <sfgradient:SfGradientStop Color="{AppThemeBinding Dark={StaticResource Key=BackgroundSecondaryDarkMode},Light={StaticResource Key=BackgroundSecondaryLightMode},Default={StaticResource Key=BackgroundSecondaryLightMode}}" Offset="1.0" />
+                                </sfgradient:SfLinearGradientBrush.GradientStops>                
+                            </sfgradient:SfLinearGradientBrush>            
+                        </sfgradient:SfGradientView.BackgroundBrush>
+                    </sfgradient:SfGradientView>  
+                </Grid>
+                <sfbusy:SfBusyIndicator Style="{StaticResource Key=BaseSfBusy}"
+                                        Title="{Binding LoadingTxt}"
+                                        IsBusy="{Binding IsBusy}"
+                                        Grid.Column="0"
+                                        Grid.Row="0"/>
+                <sfborder:SfBorder Style="{StaticResource Key=BaseSfBorder}"
+                                   Margin="0,-15,0,0"
+                                   Grid.Column="0"
+                                   Grid.Row="1">
+                    <Grid Margin="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid Grid.Column="0"
+                              Grid.Row="0"
+                              Margin="5">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="20*"/>
+                                <ColumnDefinition Width="70*"/>
+                                <ColumnDefinition Width="10*"/>
+                            </Grid.ColumnDefinitions>
+                            <sfavatar:SfAvatarView Style="{StaticResource Key=BaseSfAvatar}"
+                                                   ImageSource="{Binding ImgAkses}"
+                                                   HeightRequest="100"
+                                                   WidthRequest="100"
+                                                   HorizontalOptions="StartAndExpand"
+                                                   VerticalOptions="CenterAndExpand"
+                                                   Grid.Column="0"
+                                                   Grid.Row="0"
+                                                   Grid.RowSpan="2"/>
+                            <Label Style="{StaticResource Key=BaseLabelLarge}"
+                                   HorizontalTextAlignment="Center"
+                                   Grid.Column="1"
+                                   Grid.Row="0">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="Hello "/>
+                                        <Span Text="{Binding Username}"/>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                            <Label Style="{StaticResource Key=BaseLabelSmall}"
+                                   HorizontalTextAlignment="Center"
+                                   Grid.Column="1"
+                                   Grid.Row="1">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="Informasi Bulan "/>
+                                        <Span Text="{Binding Month}"/>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                            <sfavatar:SfAvatarView Style="{StaticResource Key=BaseSfAvatar}"
+                                                   ImageSource="Settings.png"
+                                                   HeightRequest="30"
+                                                   WidthRequest="30"
+                                                   Grid.Column="2"
+                                                   Grid.Row="0"
+                                                   Grid.RowSpan="2"/>
+                        </Grid>
+                        <sfborder:SfBorder Style="{StaticResource Key=BaseSfBorder}"
+                                           HasShadow="False"
+                                           Grid.Column="0"
+                                           Grid.Row="1">
+                            <Grid Style="{StaticResource Key=BaseGrid2}">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="25*"/>
+                                    <RowDefinition Height="25*"/>
+                                    <RowDefinition Height="25*"/>
+                                    <RowDefinition Height="25*"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="50*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="50*"/>
+                                </Grid.ColumnDefinitions>
+                                <Label Style="{StaticResource Key=BaseLabelSmall}"
+                                       Text="Nama"
+                                       Margin="10,0,0,0"
+                                       Grid.Column="0"
+                                       Grid.Row="0"/>
+                                <Label Style="{StaticResource Key=BaseLabelMedium}"
+                                       Margin="10,0,0,0"
+                                       Grid.Column="0"
+                                       Grid.Row="1">
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span Text="{Binding NamaDepan}"/>
+                                            <Span Text=" "/>
+                                            <Span Text="{Binding NamaBelakang}"/>
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
+                                <Label Style="{StaticResource Key=BaseLabelSmall}"
+                                       Text="Limit Perbulan"
+                                       Margin="10,0,0,0"
+                                       Grid.Column="0"
+                                       Grid.Row="2"/>
+                                <Label Style="{StaticResource Key=BaseLabelMedium}"
+                                       Text="{Binding Limit}"
+                                       Margin="10,0,0,0"
+                                       Grid.Column="0"
+                                       Grid.Row="3"/>
+                                <sfborder:SfBorder Style="{StaticResource Key=BaseSfBorder}"
+                                                   Grid.Column="1"
+                                                   Grid.Row="0"
+                                                   Grid.RowSpan="4"/>
+                                <Label Style="{StaticResource Key=BaseLabelLarge}"
+                                       Text="Informasi Pribadi"
+                                       VerticalTextAlignment="Center"
+                                       HorizontalTextAlignment="Center"
+                                       Grid.Column="2"
+                                       Grid.Row="0"
+                                       Grid.RowSpan="4"/>
+                            </Grid>
+                        </sfborder:SfBorder>
+                    </Grid>
+                </sfborder:SfBorder>
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

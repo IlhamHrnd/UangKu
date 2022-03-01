@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:Model="clr-namespace:Akuntansi.Model.Index"
+    xmlns:sfavatar="clr-namespace:Syncfusion.XForms.AvatarView;assembly=Syncfusion.Core.XForms"
+    xmlns:sfborder="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
+    xmlns:sfinput="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
+    xmlns:sfbutton="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+    xmlns:sfbusy="clr-namespace:Syncfusion.SfBusyIndicator.XForms;assembly=Syncfusion.SfBusyIndicator.XForms"
+    Title="Login"
+    x:Class="Akuntansi.View.Index.LoginView">
+    <ContentPage.BindingContext>
+        <Model:LoginModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="LabelLinkDarkMode">#B8E4F0</Color>
+            <Color x:Key="LabelLinkLightMode">#22577E</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout Style="{StaticResource Key=BaseStackLayout}">
+            <ScrollView Style="{StaticResource Key=BaseScrollView}">
+                <StackLayout Margin="20">
+                    <sfbusy:SfBusyIndicator Style="{StaticResource Key=BaseSfBusy}"
+                                            IsBusy="{Binding IsBusy}"
+                                            Title="{Binding LoadingTxt}"/>
+                    <sfavatar:SfAvatarView Style="{StaticResource Key=BaseSfAvatar}"
+                                           ImageSource="Login.png"
+                                           HeightRequest="200"
+                                           WidthRequest="200"/>
+                    <Label Text="Selamat Datang"
+                           Style="{StaticResource Key=BaseLabelLarge}"/>
+                    <sfborder:SfBorder Style="{StaticResource Key=BaseSfBorder}"
+                                       HeightRequest="400">
+                        <StackLayout HorizontalOptions="Center"
+                                     VerticalOptions="Start"
+                                     Margin="10,20,10,0">
+                            <sfinput:SfTextInputLayout Style="{StaticResource Key=BaseSfTextInput}"
+                                                       CharMaxLength="15"
+                                                       Hint="Username">
+                                <Entry Style="{StaticResource Key=BaseEntry}"
+                                       MaxLength="15"
+                                       Text="{Binding Username}"
+                                       Keyboard="Text"/>
+                                <sfinput:SfTextInputLayout.LeadingView>
+                                    <sfavatar:SfAvatarView Style="{StaticResource Key=BaseSfAvatar}"
+                                                           ImageSource="Username.png"/>
+                                </sfinput:SfTextInputLayout.LeadingView>
+                            </sfinput:SfTextInputLayout>
+                            <sfinput:SfTextInputLayout Style="{StaticResource Key=BaseSfTextInput}"
+                                                       CharMaxLength="15"
+                                                       Hint="Password"
+                                                       EnablePasswordVisibilityToggle="True">
+                                <Entry Style="{StaticResource Key=BaseEntry}"
+                                       MaxLength="15"
+                                       Text="{Binding Password}"
+                                       Keyboard="Text"
+                                       IsPassword="True"/>
+                                <sfinput:SfTextInputLayout.LeadingView>
+                                    <sfavatar:SfAvatarView Style="{StaticResource Key=BaseSfAvatar}"
+                                                           ImageSource="Password.png"/>
+                                </sfinput:SfTextInputLayout.LeadingView>
+                            </sfinput:SfTextInputLayout>
+                            <sfbutton:SfButton Style="{StaticResource Key=BaseSfButton}"
+                                               Text="Login"
+                                               Margin="30"
+                                               Command="{Binding Login}"/>
+                            <Label Style="{StaticResource Key=BaseLabelMedium}">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="Belum Punya Akun ? "/>
+                                        <Span Text="Daftar Disini"
+                                              TextColor="{AppThemeBinding Dark={StaticResource Key=LabelLinkDarkMode},Light={StaticResource Key=LabelLinkLightMode},Default={StaticResource Key=LabelLinkLightMode}}">
+                                            <Span.GestureRecognizers>
+                                                <TapGestureRecognizer Command="{Binding DaftarBaru, Mode=OneWay}"/>
+                                            </Span.GestureRecognizers>
+                                        </Span>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                            <Label Style="{StaticResource Key=BaseLabelMedium}">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="Lupa Password ?"
+                                              TextColor="{AppThemeBinding Dark={StaticResource Key=LabelLinkDarkMode},Light={StaticResource Key=LabelLinkLightMode},Default={StaticResource Key=LabelLinkLightMode}}">
+                                            <Span.GestureRecognizers>
+                                                <TapGestureRecognizer Command="{Binding ResetPassword, Mode=OneWay}"/>
+                                            </Span.GestureRecognizers>
+                                        </Span>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                        </StackLayout>
+                    </sfborder:SfBorder>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

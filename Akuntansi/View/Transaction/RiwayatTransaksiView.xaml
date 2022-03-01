@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<sfbackdrop:SfBackdropPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:Model="clr-namespace:Akuntansi.Model.Transaction"
+    xmlns:sflistview="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
+    xmlns:sfavatar="clr-namespace:Syncfusion.XForms.AvatarView;assembly=Syncfusion.Core.XForms"
+    xmlns:sfborder="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
+    xmlns:sfbutton="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+    xmlns:sfbusy="clr-namespace:Syncfusion.SfBusyIndicator.XForms;assembly=Syncfusion.SfBusyIndicator.XForms"
+    xmlns:sfbackdrop="clr-namespace:Syncfusion.XForms.Backdrop;assembly=Syncfusion.SfBackdrop.XForms"
+    xmlns:sfdata="clr-namespace:Syncfusion.DataSource;assembly=Syncfusion.DataSource.Portable"
+    xmlns:sfinput="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
+    xmlns:sfpicker="clr-namespace:Syncfusion.SfPicker.XForms;assembly=Syncfusion.SfPicker.XForms"
+    xmlns:sfdatetime="clr-namespace:Syncfusion.XForms.Pickers;assembly=Syncfusion.SfPicker.XForms"
+    Title="Riwayat Transaksi"
+    IsBackLayerRevealed="{Binding IsBackLayerRevealed}"
+    BackLayerRevealOption="Fill"
+    BackgroundColor="{AppThemeBinding Dark={StaticResource Key=BackgroundPrimaryDarkMode},Light={StaticResource Key=BackgroundPrimaryLightMode},Default={StaticResource Key=BackgroundPrimaryLightMode}}"
+    x:Class="Akuntansi.View.Transaction.RiwayatTransaksiView">
+    <sfbackdrop:SfBackdropPage.BindingContext>
+        <Model:RiwayatTransaksiModel/>
+    </sfbackdrop:SfBackdropPage.BindingContext>
+    <sfbackdrop:SfBackdropPage.BackLayer>
+        <sfbackdrop:BackdropBackLayer>
+            <StackLayout Style="{StaticResource Key=BaseStackLayout}">
+                <SearchBar Style="{StaticResource Key=BaseSearchbar}"
+                           x:Name="Search_Data"/>
+                <sfbusy:SfBusyIndicator Style="{StaticResource Key=BaseSfBusy}"
+                                        IsBusy="{Binding IsBusy}"
+                                        Title="{Binding LoadingTxt}"/>
+                <sflistview:SfListView Style="{StaticResource Key=BaseSfListView}"
+                                       ItemsSource="{Binding ListTransaksi}"
+                                       Margin="-5,10,10,0"
+                                       x:Name="LV_Transaksi">
+                    <sflistview:SfListView.DataSource>
+                        <sfdata:DataSource>
+                            <sfdata:DataSource.GroupDescriptors>
+                                <sfdata:GroupDescriptor PropertyName="TransaksiTanggal"/>
+                            </sfdata:DataSource.GroupDescriptors>
+                        </sfdata:DataSource>
+                    </sflistview:SfListView.DataSource>
+                    <sflistview:SfListView.ItemTemplate>
+                        <DataTemplate>
+                            <StackLayout HorizontalOptions="Fill"
+                                         VerticalOptions="Fill">
+                                <sfborder:SfBorder Style="{StaticResource Key=BaseSfBorder}"/>
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="50"/>
+                                        <ColumnDefinition Width="25*"/>
+                                        <ColumnDefinition Width="25*"/>
+                                        <ColumnDefinition Width="25*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <sfavatar:SfAvatarView Style="{StaticResource Key=BaseSfAvatar}"
+                                                           ImageSource="Transaction.png"
+                                                           Grid.Column="0"
+                                                           Grid.Row="0"
+                                                           Grid.RowSpan="2"/>
+                                    <Label Style="{StaticResource Key=BaseLabelSmall}"
+                                           Text="{Binding TransaksiKeterangan}"
+                                           Grid.Column="1"
+                                           Grid.Row="0"/>
+                                    <Label Style="{StaticResource Key=BaseLabelSmall}"
+                                           Text="{Binding TransaksiTanggal}"
+                                           Grid.Column="1"
+                                           Grid.Row="1"/>
+                                    <Label Style="{StaticResource Key=BaseLabelSmall}"
+                                           Text="{Binding TransaksiTipe}"
+                                           Grid.Column="2"
+                                           Grid.Row="0"/>
+                                    <Label Style="{StaticResource Key=BaseLabelSmall}"
+                                           Text="{Binding TransaksiKategori}"
+                                           Grid.Column="2"
+                                           Grid.Row="1"/>
+                                    <Label Style="{StaticResource Key=BaseLabelSmall}"
+                                           Text="{Binding TransaksiJumlah}"
+                                           VerticalTextAlignment="Center"
+                                           Grid.Column="3"
+                                           Grid.Row="0"
+                                           Grid.RowSpan="2"/>
+                                </Grid>
+                            </StackLayout>
+                        </DataTemplate>
+                    </sflistview:SfListView.ItemTemplate>
+                    <sflistview:SfListView.LeftSwipeTemplate>
+                        <DataTemplate>
+                            <Grid ColumnSpacing="10"
+                                  Margin="5,0,5,0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="50*"/>
+                                    <ColumnDefinition Width="50*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                <sfbutton:SfButton Style="{StaticResource Key=BaseSfButton}"
+                                                   Text="Hapus"
+                                                   ImageAlignment="Top"
+                                                   ImageSource="Hapus.png"
+                                                   Grid.Column="0"
+                                                   x:Name="Btn_Delete"
+                                                   Clicked="Btn_Delete_Clicked"/>
+                                <sfbutton:SfButton Style="{StaticResource Key=BaseSfButton}"
+                                                   Text="Update"
+                                                   ImageAlignment="Top"
+                                                   ImageSource="Update.png"
+                                                   Grid.Column="1"
+                                                   x:Name="Btn_Update"
+                                                   Clicked="Btn_Update_Clicked"/>
+                            </Grid>
+                        </DataTemplate>
+                    </sflistview:SfListView.LeftSwipeTemplate>
+                </sflistview:SfListView>
+            </StackLayout>
+        </sfbackdrop:BackdropBackLayer>
+    </sfbackdrop:SfBackdropPage.BackLayer>
+    <sfbackdrop:SfBackdropPage.FrontLayer>
+        <sfbackdrop:BackdropFrontLayer Style="{StaticResource Key=BaseSfBackdropFront}">
+            <StackLayout Style="{StaticResource Key=BaseStackLayout2}">
+                <ScrollView Style="{StaticResource Key=BaseScrollView}">
+                    <sfborder:SfBorder Style="{StaticResource Key=BaseSfBorder}"
+                                       Margin="20"
+                                       HeightRequest="550"
+                                       WidthRequest="50"
+                                       IsEnabled="{Binding IsEnabled}">
+                        <StackLayout HorizontalOptions="Fill"
+                                     VerticalOptions="Fill"
+                                     Margin="10"
+                                     Spacing="10">
+                            <sfinput:SfTextInputLayout Style="{StaticResource Key=BaseSfTextInput}"
+                                                       CharMaxLength="20"
+                                                       Hint="Keterangan">
+                                <Entry Style="{StaticResource Key=BaseEntry}"
+                                       MaxLength="20"
+                                       Keyboard="Text"
+                                       Text="{Binding Keterangan}"/>
+                                <sfinput:SfTextInputLayout.LeadingView>
+                                    <sfavatar:SfAvatarView Style="{StaticResource Key=BaseSfAvatar}"
+                                                           ImageSource="Info.png"/>
+                                </sfinput:SfTextInputLayout.LeadingView>
+                            </sfinput:SfTextInputLayout>
+                            <sfinput:SfTextInputLayout Style="{StaticResource Key=BaseSfTextInput}"
+                                                       CharMaxLength="11"
+                                                       Hint="Jumlah">
+                                <Entry Style="{StaticResource Key=BaseEntry}"
+                                       MaxLength="11"
+                                       Keyboard="Numeric"
+                                       Text="{Binding Jumlah}"/>
+                                <sfinput:SfTextInputLayout.LeadingView>
+                                    <sfavatar:SfAvatarView Style="{StaticResource Key=BaseSfAvatar}"
+                                                           ImageSource="Transaction.png"/>
+                                </sfinput:SfTextInputLayout.LeadingView>
+                            </sfinput:SfTextInputLayout>
+                            <Label Text="Tipe"
+                                   Style="{StaticResource Key=BaseLabelMedium}"/>
+                            <sfbutton:SfRadioGroup x:Name="Radio_Tipe"
+                                                   BindableLayout.ItemsSource="{Binding ListTipe}"
+                                                   Orientation="Horizontal">
+                                <BindableLayout.ItemTemplate>
+                                    <DataTemplate>
+                                        <sfbutton:SfRadioButton Style="{StaticResource Key=BaseSfRadioButton}"
+                                                                Text="{Binding Tipe}"/>
+                                    </DataTemplate>
+                                </BindableLayout.ItemTemplate>
+                            </sfbutton:SfRadioGroup>
+                            <sfpicker:SfPicker Style="{StaticResource Key=BaseSfPicker}"
+                                               x:Name="Picker_Kategori"/>
+                            <sfdatetime:SfDatePicker Style="{StaticResource Key=BaseSfDatePicker}"
+                                                     x:Name="Date_Transaksi"/>
+                            <sfbutton:SfButton Style="{StaticResource Key=BaseSfButton}"
+                                               Text="Update Transaksi"
+                                               Command="{Binding UpdateCommand}"/>
+                        </StackLayout>
+                    </sfborder:SfBorder>
+                </ScrollView>
+            </StackLayout>
+        </sfbackdrop:BackdropFrontLayer>
+    </sfbackdrop:SfBackdropPage.FrontLayer>
+</sfbackdrop:SfBackdropPage>

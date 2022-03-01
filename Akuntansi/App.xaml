@@ -1,0 +1,513 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             xmlns:lottie="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
+             xmlns:sfavatar="clr-namespace:Syncfusion.XForms.AvatarView;assembly=Syncfusion.Core.XForms"
+             xmlns:sfborder="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
+             xmlns:sfinput="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
+             xmlns:sfbutton="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+             xmlns:sfpull="clr-namespace:Syncfusion.SfPullToRefresh.XForms;assembly=Syncfusion.SfPullToRefresh.XForms"
+             xmlns:sfbusy="clr-namespace:Syncfusion.SfBusyIndicator.XForms;assembly=Syncfusion.SfBusyIndicator.XForms"
+             xmlns:sfbackdrop="clr-namespace:Syncfusion.XForms.Backdrop;assembly=Syncfusion.SfBackdrop.XForms"
+             xmlns:sfcard="clr-namespace:Syncfusion.XForms.Cards;assembly=Syncfusion.Cards.XForms"
+             xmlns:sflistview="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
+             xmlns:sfdatetime="clr-namespace:Syncfusion.XForms.Pickers;assembly=Syncfusion.SfPicker.XForms"
+             xmlns:sfpicker="clr-namespace:Syncfusion.SfPicker.XForms;assembly=Syncfusion.SfPicker.XForms"
+             xmlns:sfnavigation="clr-namespace:Syncfusion.SfNavigationDrawer.XForms;assembly=Syncfusion.SfNavigationDrawer.XForms"
+             xmlns:sftabview="clr-namespace:Syncfusion.XForms.TabView;assembly=Syncfusion.SfTabView.XForms"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Akuntansi.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <Color x:Key="BackgroundPrimaryDarkMode">#2C2E43</Color>
+            <Color x:Key="BackgroundSecondaryDarkMode">#334257</Color>
+            <Color x:Key="BackgroundPrimaryLightMode">#E1E5EA</Color>
+            <Color x:Key="BackgroundSecondaryLightMode">#FEF7DC</Color>
+            <Color x:Key="FrameBackgroundDarkMode">#2B2B2B</Color>
+            <Color x:Key="FrameBackgroundLightMode">#F4F9F9</Color>
+            <Color x:Key="BorderDarkMode">#E8EAE6</Color>
+            <Color x:Key="BorderLightMode">#374045</Color>
+            <Color x:Key="ShadowLightMode">#041C32</Color>
+            <Color x:Key="ShadowDarkMode">#FFF8F3</Color>
+            <Color x:Key="LabelDarkMode">#CDD0CB</Color>
+            <Color x:Key="LabelLightMode">#222831</Color>
+            <Color x:Key="EntryFocusedDarkMode">#FBF7F0</Color>
+            <Color x:Key="EntryFocusedLightMode">#222831</Color>
+            <Color x:Key="EntryUnfocusedDarkMode">#CDC9C3</Color>
+            <Color x:Key="EntryUnfocusedLightMode">#444444</Color>
+            <Color x:Key="ButtonDarkMode">#060930</Color>
+            <Color x:Key="ButtonLightMode">#D6D2C4</Color>
+            <Color x:Key="RefreshPrimaryDarkMode">#150485</Color>
+            <Color x:Key="RefreshSecondaryDarkMode">#D7E9F7</Color>
+            <Color x:Key="RefreshPrimaryLightMode">#A4EBF3</Color>
+            <Color x:Key="RefreshSecondaryLightMode">#141E61</Color>
+            <Color x:Key="CardViewPrimaryDarkMode">#1D2D50</Color>
+            <Color x:Key="CardViewSecondaryDarkMode">#133B5C</Color>
+            <Color x:Key="CardViewPrimaryLightMode">#B5EAEA</Color>
+            <Color x:Key="CardViewSecondaryLightMode">#D0E8F2</Color>
+            <Color x:Key="RadioButtonCheckDarkMode">#1A374D</Color>
+            <Color x:Key="RadioButtonCheckLightMode">#1D2D50</Color>
+            <Color x:Key="RadioButtonUncheckDarkMode">#B1D0E0</Color>
+            <Color x:Key="RadioButtonUncheckLightMode">#8FD6E1</Color>
+        </ResourceDictionary>
+
+        <!-- Base Style StackLayout -->
+        <Style x:Key="BaseStackLayout" TargetType="StackLayout">
+            <Setter Property="BackgroundColor"
+                    Value="{AppThemeBinding Dark={StaticResource Key=BackgroundPrimaryDarkMode},Light={StaticResource Key=BackgroundPrimaryLightMode},Default={StaticResource Key=BackgroundPrimaryLightMode}}"/>
+            <Setter Property="HorizontalOptions"
+                    Value="FillAndExpand"/>
+            <Setter Property="VerticalOptions"
+                    Value="FillAndExpand"/>
+        </Style>
+
+        <!-- Base Style StackLayout 2 -->
+        <Style x:Key="BaseStackLayout2" TargetType="StackLayout">
+            <Setter Property="BackgroundColor"
+                    Value="{AppThemeBinding Dark={StaticResource Key=BackgroundSecondaryDarkMode},Light={StaticResource Key=BackgroundSecondaryLightMode},Default={StaticResource Key=BackgroundSecondaryLightMode}}"/>
+            <Setter Property="HorizontalOptions"
+                    Value="FillAndExpand"/>
+            <Setter Property="VerticalOptions"
+                    Value="FillAndExpand"/>
+        </Style>
+
+        <!-- Base Style Grid -->
+        <Style x:Key="BaseGrid" TargetType="Grid">
+            <Setter Property="BackgroundColor"
+                    Value="{AppThemeBinding Dark={StaticResource Key=BackgroundPrimaryDarkMode},Light={StaticResource Key=BackgroundPrimaryLightMode},Default={StaticResource Key=BackgroundPrimaryLightMode}}"/>
+            <Setter Property="HorizontalOptions"
+                    Value="FillAndExpand"/>
+            <Setter Property="VerticalOptions"
+                    Value="FillAndExpand"/>
+        </Style>
+
+        <!-- Base Style Grid 2 -->
+        <Style x:Key="BaseGrid2" TargetType="Grid">
+            <Setter Property="BackgroundColor"
+                    Value="{AppThemeBinding Dark={StaticResource Key=BackgroundSecondaryDarkMode},Light={StaticResource Key=BackgroundSecondaryLightMode},Default={StaticResource Key=BackgroundSecondaryLightMode}}"/>
+            <Setter Property="HorizontalOptions"
+                    Value="FillAndExpand"/>
+            <Setter Property="VerticalOptions"
+                    Value="FillAndExpand"/>
+        </Style>
+
+        <!-- Base Style Label -->
+        <Style x:Key="BaseLabel" TargetType="Label">
+            <Setter Property="TextColor"
+                    Value="{AppThemeBinding Dark={StaticResource Key=LabelDarkMode},Light={StaticResource Key=LabelLightMode},Default={StaticResource Key=LabelLightMode}}"/>
+        </Style>
+
+        <!-- Base Style Label - Small -->
+        <Style x:Key="BaseLabelSmall" TargetType="Label" BasedOn="{StaticResource Key=BaseLabel}">
+            <Setter Property="FontSize"
+                    Value="Small"/>
+        </Style>
+
+        <!-- Base Style Label - Medium -->
+        <Style x:Key="BaseLabelMedium" TargetType="Label" BasedOn="{StaticResource Key=BaseLabel}">
+            <Setter Property="FontSize"
+                    Value="Medium"/>
+        </Style>
+
+        <!-- Base Style Label - Large -->
+        <Style x:Key="BaseLabelLarge" TargetType="Label" BasedOn="{StaticResource Key=BaseLabel}">
+            <Setter Property="FontSize"
+                    Value="Large"/>
+        </Style>
+
+        <!-- Base Style Entry -->
+        <Style x:Key="BaseEntry" TargetType="Entry">
+            <Setter Property="HorizontalTextAlignment"
+                    Value="Start"/>
+            <Setter Property="ClearButtonVisibility"
+                    Value="WhileEditing"/>
+            <Setter Property="IsTextPredictionEnabled"
+                    Value="False"/>
+            <Setter Property="TextColor"
+                    Value="{AppThemeBinding Dark={StaticResource Key=LabelDarkMode},Light={StaticResource Key=LabelLightMode},Default={StaticResource Key=LabelLightMode}}"/>
+        </Style>
+
+        <!-- Base Style Picker -->
+        <Style x:Key="BasePicker" TargetType="Picker">
+            <Setter Property="TextColor"
+                    Value="{AppThemeBinding Dark={StaticResource Key=LabelDarkMode},Light={StaticResource Key=LabelLightMode},Default={StaticResource Key=LabelLightMode}}"/>
+            <Setter Property="FontSize"
+                    Value="Medium"/>
+        </Style>
+
+        <!-- Base Style Editor -->
+        <Style x:Key="BaseEditor" TargetType="Editor">
+            <Setter Property="TextColor"
+                    Value="{AppThemeBinding Dark={StaticResource Key=LabelDarkMode},Light={StaticResource Key=LabelLightMode},Default={StaticResource Key=LabelLightMode}}"/>
+            <Setter Property="PlaceholderColor"
+                    Value="{AppThemeBinding Dark={StaticResource Key=LabelDarkMode},Light={StaticResource Key=LabelLightMode},Default={StaticResource Key=LabelLightMode}}"/>
+            <Setter Property="AutoSize"
+                    Value="TextChanges"/>
+            <Setter Property="IsTextPredictionEnabled"
+                    Value="False"/>
+        </Style>
+
+        <!-- Base Style Searchbar -->
+        <Style x:Key="BaseSearchbar" TargetType="SearchBar">
+            <Setter Property="TextColor"
+                    Value="{AppThemeBinding Dark={StaticResource Key=LabelDarkMode},Light={StaticResource Key=LabelLightMode},Default={StaticResource Key=LabelLightMode}}"/>
+            <Setter Property="PlaceholderColor"
+                    Value="{AppThemeBinding Dark={StaticResource Key=LabelDarkMode},Light={StaticResource Key=LabelLightMode},Default={StaticResource Key=LabelLightMode}}"/>
+            <Setter Property="BackgroundColor"
+                    Value="{AppThemeBinding Dark={StaticResource Key=BackgroundPrimaryDarkMode},Light={StaticResource Key=BackgroundPrimaryLightMode},Default={StaticResource Key=BackgroundPrimaryLightMode}}"/>
+            <Setter Property="IsSpellCheckEnabled"
+                    Value="False"/>
+        </Style>
+
+        <!-- Base Style DateTime -->
+        <Style x:Key="BaseDateTime" TargetType="DatePicker">
+            <Setter Property="FontSize"
+                    Value="Medium"/>
+            <Setter Property="Format"
+                    Value="dd - MM - yyyy"/>
+            <Setter Property="MaximumDate"
+                    Value="{x:Static sys:DateTime.Now}"/>
+        </Style>
+
+        <!-- Base Style ScrollView -->
+        <Style x:Key="BaseScrollView" TargetType="ScrollView">
+            <Setter Property="HorizontalScrollBarVisibility"
+                    Value="Default"/>
+            <Setter Property="VerticalScrollBarVisibility"
+                    Value="Default"/>
+            <Setter Property="Orientation"
+                    Value="Vertical"/>
+        </Style>
+
+        <!-- Base Style Lottie -->
+        <Style x:Key="BaseLottie" TargetType="lottie:AnimationView">
+            <Setter Property="RepeatMode"
+                    Value="Infinite"/>
+            <Setter Property="AutoPlay"
+                    Value="True"/>
+            <Setter Property="WidthRequest"
+                    Value="300"/>
+            <Setter Property="HeightRequest"
+                    Value="300"/>
+            <Setter Property="Animation"
+                    Value="ConnectionError.json"/>
+        </Style>
+
+        <!-- Base Style SfAvatar -->
+        <Style x:Key="BaseSfAvatar" TargetType="sfavatar:SfAvatarView">
+            <Setter Property="ContentType"
+                    Value="Default"/>
+            <Setter Property="HorizontalOptions"
+                    Value="Center"/>
+            <Setter Property="VerticalOptions"
+                    Value="Center"/>
+            <Setter Property="BorderColor"
+                    Value="Transparent"/>
+        </Style>
+
+        <!-- Base Style SfBorder -->
+        <Style x:Key="BaseSfBorder" TargetType="sfborder:SfBorder">
+            <Setter Property="BackgroundColor"
+                    Value="{AppThemeBinding Dark={StaticResource Key=FrameBackgroundDarkMode},Light={StaticResource Key=FrameBackgroundLightMode},Default={StaticResource Key=FrameBackgroundLightMode}}"/>
+            <Setter Property="BorderColor"
+                    Value="{AppThemeBinding Dark={StaticResource Key=BorderDarkMode},Light={StaticResource Key=BorderLightMode},Default={StaticResource Key=BorderLightMode}}"/>
+            <Setter Property="CornerRadius"
+                    Value="15"/>
+            <Setter Property="BorderWidth"
+                    Value="3"/>
+            <Setter Property="HasShadow"
+                    Value="True"/>
+            <Setter Property="ShadowColor"
+                    Value="{AppThemeBinding Dark={StaticResource Key=ShadowDarkMode},Light={StaticResource Key=ShadowLightMode},Default={StaticResource Key=ShadowLightMode}}"/>
+        </Style>
+
+        <!-- Base Style SfTextInput -->
+        <Style x:Key="BaseSfTextInput" TargetType="sfinput:SfTextInputLayout">
+            <Setter Property="ContainerType"
+                    Value="Outlined"/>
+            <Setter Property="OutlineCornerRadius"
+                    Value="10"/>
+            <Setter Property="LeadingViewPosition"
+                    Value="Inside"/>
+            <Setter Property="ShowCharCount"
+                    Value="True"/>
+            <Setter Property="FocusedColor"
+                    Value="{AppThemeBinding Dark={StaticResource Key=EntryFocusedDarkMode},Light={StaticResource Key=EntryFocusedLightMode},Default={StaticResource Key=EntryFocusedLightMode}}"/>
+            <Setter Property="UnfocusedColor"
+                    Value="{AppThemeBinding Dark={StaticResource Key=EntryUnfocusedDarkMode},Light={StaticResource Key=EntryUnfocusedLightMode},Default={StaticResource Key=EntryUnfocusedLightMode}}"/>
+        </Style>
+
+        <!-- Base Style SfButton -->
+        <Style x:Key="BaseSfButton" TargetType="sfbutton:SfButton">
+            <Setter Property="ShowIcon"
+                    Value="True"/>
+            <Setter Property="HorizontalTextAlignment"
+                    Value="Center"/>
+            <Setter Property="VerticalTextAlignment"
+                    Value="Center"/>
+            <Setter Property="FontSize"
+                    Value="20"/>
+            <Setter Property="CornerRadius"
+                    Value="10"/>
+            <Setter Property="HasShadow"
+                    Value="True"/>
+            <Setter Property="BackgroundColor"
+                    Value="{AppThemeBinding Dark={StaticResource Key=ButtonDarkMode},Light={StaticResource Key=ButtonLightMode},Default={StaticResource Key=ButtonLightMode}}"/>
+            <Setter Property="TextColor"
+                    Value="{AppThemeBinding Dark={StaticResource Key=LabelDarkMode},Light={StaticResource Key=LabelLightMode},Default={StaticResource Key=LabelLightMode}}"/>
+            <Setter Property="BorderColor"
+                    Value="{AppThemeBinding Dark={StaticResource Key=BorderDarkMode},Light={StaticResource Key=BorderLightMode},Default={StaticResource Key=BorderLightMode}}"/>
+            <Setter Property="ImageSource"
+                    Value="Click.png"/>
+        </Style>
+
+        <!-- Base Style SfPullToRefresh -->
+        <Style x:Key="BaseSfPullToRefresh" TargetType="sfpull:SfPullToRefresh">
+            <Setter Property="PullingThershold"
+                    Value="100"/>
+            <Setter Property="RefreshContentHeight"
+                    Value="30"/>
+            <Setter Property="RefreshContentThreshold"
+                    Value="30"/>
+            <Setter Property="RefreshContentWidth"
+                    Value="30"/>
+            <Setter Property="TransitionMode"
+                    Value="SlideOnTop"/>
+            <Setter Property="ProgressBackgroundColor"
+                    Value="{AppThemeBinding Dark={StaticResource Key=RefreshPrimaryDarkMode},Light={StaticResource Key=RefreshPrimaryLightMode},Default={StaticResource Key=RefreshPrimaryLightMode}}"/>
+            <Setter Property="ProgressStrokeColor"
+                    Value="{AppThemeBinding Dark={StaticResource Key=RefreshSecondaryDarkMode},Light={StaticResource Key=RefreshSecondaryLightMode},Default={StaticResource Key=RefreshSecondaryLightMode}}"/>
+        </Style>
+
+        <!-- Base Style SfBusyIndicator -->
+        <Style x:Key="BaseSfBusy" TargetType="sfbusy:SfBusyIndicator">
+            <Setter Property="ViewBoxHeight"
+                    Value="20"/>
+            <Setter Property="ViewBoxWidth"
+                    Value="40"/>
+            <Setter Property="TextColor"
+                    Value="{AppThemeBinding Dark={StaticResource Key=LabelDarkMode},Light={StaticResource Key=LabelLightMode},Default={StaticResource Key=LabelLightMode}}"/>
+            <Setter Property="EnableAnimation"
+                    Value="True"/>
+            <Setter Property="TextSize"
+                    Value="15"/>
+            <Setter Property="Duration"
+                    Value="1"/>
+            <Setter Property="TitlePlacement"
+                    Value="Bottom"/>
+        </Style>
+
+        <!-- Base Style SfBackdropPage -> FrontLayer -->
+        <Style x:Key="BaseSfBackdropFront" TargetType="sfbackdrop:BackdropFrontLayer">
+            <Setter Property="LeftCornerRadius"
+                    Value="30"/>
+            <Setter Property="RightCornerRadius"
+                    Value="30"/>
+            <Setter Property="EdgeShape"
+                    Value="Curve"/>
+        </Style>
+
+        <!-- Base Style SfCardLayout -->
+        <Style x:Key="BaseSfCardLayout" TargetType="sfcard:SfCardLayout">
+            <Setter Property="SwipeDirection"
+                    Value="Left"/>
+            <Setter Property="HeightRequest"
+                    Value="120"/>
+            <Setter Property="ShowSwipedCard"
+                    Value="True"/>
+            <Setter Property="VisibleCardIndex"
+                    Value="0"/>
+        </Style>
+
+        <!-- Base Style SfCardView -->
+        <Style x:Key="BaseSfCardView" TargetType="sfcard:SfCardView">
+            <Setter Property="BorderWidth"
+                    Value="2"/>
+            <Setter Property="CornerRadius"
+                    Value="0,30,30,0"/>
+            <Setter Property="BorderColor"
+                    Value="{AppThemeBinding Dark={StaticResource Key=BorderDarkMode},Light={StaticResource Key=BorderLightMode},Default={StaticResource Key=BorderLightMode}}"/>
+            <Setter Property="HasShadow"
+                    Value="False"/>
+            <Setter Property="FadeOutOnSwiping"
+                    Value="True"/>
+        </Style>
+
+        <!-- Base Style SfCardView 1 -->
+        <Style x:Key="BaseSfCardView1" TargetType="sfcard:SfCardView" BasedOn="{StaticResource Key=BaseSfCardView}">
+            <Setter Property="BackgroundColor"
+                    Value="{AppThemeBinding Dark={StaticResource Key=CardViewPrimaryDarkMode},Light={StaticResource Key=CardViewPrimaryLightMode},Default={StaticResource Key=CardViewPrimaryLightMode}}"/>
+        </Style>
+
+        <!-- Base Style SfCardView 2 -->
+        <Style x:Key="BaseSfCardView2" TargetType="sfcard:SfCardView" BasedOn="{StaticResource Key=BaseSfCardView}">
+            <Setter Property="BackgroundColor"
+                    Value="{AppThemeBinding Dark={StaticResource Key=CardViewSecondaryDarkMode},Light={StaticResource Key=CardViewSecondaryLightMode},Default={StaticResource Key=CardViewSecondaryLightMode}}"/>
+        </Style>
+
+        <!-- Base Style SfListview -->
+        <Style x:Key="BaseSfListView" TargetType="sflistview:SfListView">
+            <Setter Property="Margin"
+                    Value="10,10,10,10"/>
+            <Setter Property="ItemSpacing"
+                    Value="15,0,0,0"/>
+            <Setter Property="AutoFitMode"
+                    Value="DynamicHeight"/>
+            <Setter Property="IsScrollBarVisible"
+                    Value="True"/>
+            <Setter Property="SwipeOffset"
+                    Value="200"/>
+            <Setter Property="SwipeThreshold"
+                    Value="30"/>
+            <Setter Property="SelectionBackgroundColor"
+                    Value="Transparent"/>
+            <Setter Property="SelectionGesture"
+                    Value="Tap"/>
+            <Setter Property="SelectionMode"
+                    Value="SingleDeselect"/>
+            <Setter Property="AllowSwiping"
+                    Value="True"/>
+        </Style>
+
+        <!-- Base Style SfRadioButton -->
+        <Style x:Key="BaseSfRadioButton" TargetType="sfbutton:SfRadioButton">
+            <Setter Property="CheckedColor"
+                    Value="{AppThemeBinding Dark={StaticResource Key=RadioButtonCheckDarkMode},Light={StaticResource Key=RadioButtonCheckLightMode},Default={StaticResource Key=RadioButtonCheckLightMode}}"/>
+            <Setter Property="UncheckedColor"
+                    Value="{AppThemeBinding Dark={StaticResource Key=RadioButtonUncheckDarkMode},Light={StaticResource Key=RadioButtonUncheckLightMode},Default={StaticResource Key=RadioButtonUncheckLightMode}}"/>
+            <Setter Property="BorderWidth"
+                    Value="2"/>
+            <Setter Property="TextColor"
+                    Value="{AppThemeBinding Dark={StaticResource Key=LabelDarkMode},Light={StaticResource Key=LabelLightMode},Default={StaticResource Key=LabelLightMode}}"/>
+        </Style>
+
+        <!-- Base Style SfPicker -->
+        <Style x:Key="BaseSfPicker" TargetType="sfpicker:SfPicker">
+            <Setter Property="ShowHeader"
+                    Value="True"/>
+            <Setter Property="ShowFooter"
+                    Value="False"/>
+            <Setter Property="HeightRequest"
+                    Value="100"/>
+            <Setter Property="HeaderHeight"
+                    Value="40"/>
+            <Setter Property="EnableLooping"
+                    Value="True"/>
+            <Setter Property="HeaderBackgroundColor"
+                    Value="{AppThemeBinding Dark={StaticResource Key=BackgroundPrimaryDarkMode},Light={StaticResource Key=BackgroundPrimaryLightMode},Default={StaticResource Key=BackgroundPrimaryLightMode}}"/>
+            <Setter Property="HeaderText"
+                    Value="Kategori Transaksi"/>
+            <Setter Property="HeaderTextColor"
+                    Value="{AppThemeBinding Dark={StaticResource Key=LabelDarkMode},Light={StaticResource Key=LabelLightMode},Default={StaticResource Key=LabelLightMode}}"/>
+            <Setter Property="BackgroundColor"
+                    Value="{AppThemeBinding Dark={StaticResource Key=BackgroundSecondaryDarkMode},Light={StaticResource Key=BackgroundSecondaryLightMode},Default={StaticResource Key=BackgroundSecondaryLightMode}}"/>
+            <Setter Property="SelectedItemTextColor"
+                    Value="{AppThemeBinding Dark={StaticResource Key=LabelDarkMode},Light={StaticResource Key=LabelLightMode},Default={StaticResource Key=LabelLightMode}}"/>
+            <Setter Property="UnSelectedItemTextColor"
+                    Value="{AppThemeBinding Dark={StaticResource Key=LabelDarkMode},Light={StaticResource Key=LabelLightMode},Default={StaticResource Key=LabelLightMode}}"/>
+            <Setter Property="BorderColor"
+                    Value="{AppThemeBinding Dark={StaticResource Key=BorderDarkMode},Light={StaticResource Key=BorderLightMode},Default={StaticResource Key=BorderLightMode}}"/>
+        </Style>
+
+        <!-- Base Style SfDatePicker -->
+        <Style x:Key="BaseSfDatePicker" TargetType="sfdatetime:SfDatePicker">
+            <Setter Property="ShowHeader"
+                    Value="True"/>
+            <Setter Property="ShowFooter"
+                    Value="False"/>
+            <Setter Property="Date"
+                    Value="{x:Static sys:DateTime.Now}"/>
+            <Setter Property="MaximumDate"
+                    Value="{x:Static sys:DateTime.Now}"/>
+            <Setter Property="Format"
+                    Value="dd_MMM_yyyy"/>
+            <Setter Property="EnableLooping"
+                    Value="True"/>
+            <Setter Property="PickerMode"
+                    Value="Default"/>
+            <Setter Property="BackgroundColor"
+                    Value="{AppThemeBinding Dark={StaticResource Key=BackgroundSecondaryDarkMode},Light={StaticResource Key=BackgroundSecondaryLightMode},Default={StaticResource Key=BackgroundSecondaryLightMode}}"/>
+            <Setter Property="HeaderBackgroundColor"
+                    Value="{AppThemeBinding Dark={StaticResource Key=BackgroundPrimaryDarkMode},Light={StaticResource Key=BackgroundPrimaryLightMode},Default={StaticResource Key=BackgroundPrimaryLightMode}}"/>
+            <Setter Property="ColumnHeaderBackgroundColor"
+                    Value="{AppThemeBinding Dark={StaticResource Key=BackgroundPrimaryDarkMode},Light={StaticResource Key=BackgroundPrimaryLightMode},Default={StaticResource Key=BackgroundPrimaryLightMode}}"/>
+            <Setter Property="ColumnHeaderTextColor"
+                    Value="{AppThemeBinding Dark={StaticResource Key=LabelDarkMode},Light={StaticResource Key=LabelLightMode},Default={StaticResource Key=LabelLightMode}}"/>
+            <Setter Property="HeaderTextColor"
+                    Value="{AppThemeBinding Dark={StaticResource Key=LabelDarkMode},Light={StaticResource Key=LabelLightMode},Default={StaticResource Key=LabelLightMode}}"/>
+            <Setter Property="HeaderTextColor"
+                    Value="{AppThemeBinding Dark={StaticResource Key=LabelDarkMode},Light={StaticResource Key=LabelLightMode},Default={StaticResource Key=LabelLightMode}}"/>
+            <Setter Property="SelectedItemTextColor"
+                    Value="{AppThemeBinding Dark={StaticResource Key=LabelDarkMode},Light={StaticResource Key=LabelLightMode},Default={StaticResource Key=LabelLightMode}}"/>
+            <Setter Property="UnselectedItemTextColor"
+                    Value="{AppThemeBinding Dark={StaticResource Key=LabelDarkMode},Light={StaticResource Key=LabelLightMode},Default={StaticResource Key=LabelLightMode}}"/>
+            <Setter Property="BorderColor"
+                    Value="{AppThemeBinding Dark={StaticResource Key=BorderDarkMode},Light={StaticResource Key=BorderLightMode},Default={StaticResource Key=BorderLightMode}}"/>
+            <Setter Property="HeaderHeight"
+                    Value="30"/>
+            <Setter Property="ItemHeight"
+                    Value="30"/>
+            <Setter Property="DayHeaderText"
+                    Value="Hari"/>
+            <Setter Property="MonthHeaderText"
+                    Value="Bulan"/>
+            <Setter Property="YearHeaderText"
+                    Value="Tahun"/>
+            <Setter Property="HeaderText"
+                    Value="Tanggal Transaksi"/>
+        </Style>
+
+        <!-- Base Style SfNavigation -->
+        <Style x:Key="BaseSfNavigation" TargetType="sfnavigation:SfNavigationDrawer">
+            <Setter Property="DrawerWidth"
+                    Value="250"/>
+            <Setter Property="DrawerHeaderHeight"
+                    Value="200"/>
+            <Setter Property="DrawerFooterHeight"
+                    Value="0"/>
+            <Setter Property="EnableSwipeGesture"
+                    Value="True"/>
+            <Setter Property="TouchThreshold"
+                    Value="80"/>
+            <Setter Property="Transition"
+                    Value="Push"/>
+        </Style>
+
+        <!-- Base Style SfTabView -->
+        <Style x:Key="BaseSfTabView" TargetType="sftabview:SfTabView">
+            <Setter Property="BackgroundColor"
+                    Value="{AppThemeBinding Dark={StaticResource Key=BackgroundPrimaryDarkMode},Light={StaticResource Key=BackgroundPrimaryLightMode},Default={StaticResource Key=BackgroundPrimaryLightMode}}"/>
+            <Setter Property="TabHeaderBackgroundColor"
+                    Value="{AppThemeBinding Dark={StaticResource Key=BackgroundPrimaryDarkMode},Light={StaticResource Key=BackgroundPrimaryLightMode},Default={StaticResource Key=BackgroundPrimaryLightMode}}"/>
+            <Setter Property="EnableRippleAnimation"
+                    Value="True"/>
+            <Setter Property="EnableSwiping"
+                    Value="True"/>
+            <Setter Property="TabHeight"
+                    Value="60"/>
+            <Setter Property="SwipingThreshold"
+                    Value="30"/>
+            <Setter Property="VisibleHeaderCount"
+                    Value="2"/>
+            <Setter Property="TabHeaderPosition"
+                    Value="Top"/>
+            <Setter Property="TabHeaderDirection"
+                    Value="LeftToRight"/>
+            <Setter Property="OverflowMode"
+                    Value="Scroll"/>
+            <Setter Property="DisplayMode"
+                    Value="ImageWithText"/>
+        </Style>
+
+        <!-- Base Style SfTabItem -->
+        <Style x:Key="BaseSfTabItem" TargetType="sftabview:SfTabItem">
+            <Setter Property="ImageSource"
+                    Value="Click.png"/>
+            <Setter Property="TitleFontColor"
+                    Value="{AppThemeBinding Dark={StaticResource Key=LabelDarkMode},Light={StaticResource Key=LabelLightMode},Default={StaticResource Key=LabelLightMode}}"/>
+        </Style>
+    </Application.Resources>
+</Application>

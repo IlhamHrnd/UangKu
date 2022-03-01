@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:Model="clr-namespace:Akuntansi.Model.Transaction"
+    xmlns:sfavatar="clr-namespace:Syncfusion.XForms.AvatarView;assembly=Syncfusion.Core.XForms"
+    xmlns:sfborder="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
+    xmlns:sfbusy="clr-namespace:Syncfusion.SfBusyIndicator.XForms;assembly=Syncfusion.SfBusyIndicator.XForms"
+    xmlns:sfbutton="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+    xmlns:sfinput="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
+    xmlns:sfpicker="clr-namespace:Syncfusion.SfPicker.XForms;assembly=Syncfusion.SfPicker.XForms"
+    xmlns:sfdatetime="clr-namespace:Syncfusion.XForms.Pickers;assembly=Syncfusion.SfPicker.XForms"
+    Title="Transaksi Baru"
+    x:Class="Akuntansi.View.Transaction.TransaksiBaruView">
+    <ContentPage.BindingContext>
+        <Model:TransaksiBaruModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <StackLayout Style="{StaticResource Key=BaseGrid}">
+            <ScrollView>
+                <StackLayout HorizontalOptions="Fill"
+                             VerticalOptions="Fill">
+                    <sfbusy:SfBusyIndicator Style="{StaticResource Key=BaseSfBusy}"
+                                            IsBusy="{Binding IsBusy}"
+                                            Title="{Binding LoadingTxt}"/>
+                    <sfborder:SfBorder Style="{StaticResource Key=BaseSfBorder}"
+                                       HeightRequest="550"
+                                       Margin="20">
+                        <StackLayout HorizontalOptions="Fill"
+                                     VerticalOptions="Fill"
+                                     Margin="20"
+                                     Spacing="10">
+                            <sfinput:SfTextInputLayout Style="{StaticResource Key=BaseSfTextInput}"
+                                                       CharMaxLength="20"
+                                                       Hint="Keterangan">
+                                <Entry Style="{StaticResource Key=BaseEntry}"
+                                       MaxLength="20"
+                                       Keyboard="Text"
+                                       Text="{Binding Keterangan}"/>
+                                <sfinput:SfTextInputLayout.LeadingView>
+                                    <sfavatar:SfAvatarView Style="{StaticResource Key=BaseSfAvatar}"
+                                                           ImageSource="Info.png"/>
+                                </sfinput:SfTextInputLayout.LeadingView>
+                            </sfinput:SfTextInputLayout>
+                            <sfinput:SfTextInputLayout Style="{StaticResource Key=BaseSfTextInput}"
+                                                       CharMaxLength="11"
+                                                       Hint="Jumlah">
+                                <Entry Style="{StaticResource Key=BaseEntry}"
+                                       MaxLength="11"
+                                       Keyboard="Numeric"
+                                       Text="{Binding Jumlah}"/>
+                                <sfinput:SfTextInputLayout.LeadingView>
+                                    <sfavatar:SfAvatarView Style="{StaticResource Key=BaseSfAvatar}"
+                                                           ImageSource="Transaction.png"/>
+                                </sfinput:SfTextInputLayout.LeadingView>
+                            </sfinput:SfTextInputLayout>
+                            <Label Text="Tipe"
+                                   Style="{StaticResource Key=BaseLabelMedium}"/>
+                            <sfbutton:SfRadioGroup x:Name="Radio_Tipe"
+                                                   BindableLayout.ItemsSource="{Binding ListTipe}"
+                                                   Orientation="Horizontal">
+                                <BindableLayout.ItemTemplate>
+                                    <DataTemplate>
+                                        <sfbutton:SfRadioButton Style="{StaticResource Key=BaseSfRadioButton}"
+                                                                Text="{Binding Tipe}"/>
+                                    </DataTemplate>
+                                </BindableLayout.ItemTemplate>
+                            </sfbutton:SfRadioGroup>
+                            <sfpicker:SfPicker Style="{StaticResource Key=BaseSfPicker}"
+                                               x:Name="Picker_Kategori"/>
+                            <sfdatetime:SfDatePicker Style="{StaticResource Key=BaseSfDatePicker}"
+                                                     x:Name="Date_Transaksi"/>
+                        </StackLayout>
+                    </sfborder:SfBorder>
+                    <sfbutton:SfButton Style="{StaticResource Key=BaseSfButton}"
+                                       Text="Tambah Data"
+                                       Margin="20"
+                                       Command="{Binding TransaksiBaru}"/>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:Model="clr-namespace:Akuntansi.Model.Home"
+    xmlns:sfavatar="clr-namespace:Syncfusion.XForms.AvatarView;assembly=Syncfusion.Core.XForms"
+    xmlns:sfborder="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
+    xmlns:sfcard="clr-namespace:Syncfusion.XForms.Cards;assembly=Syncfusion.Cards.XForms"
+    xmlns:sfbusy="clr-namespace:Syncfusion.SfBusyIndicator.XForms;assembly=Syncfusion.SfBusyIndicator.XForms"
+    xmlns:sflistview="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
+    xmlns:sfdata="clr-namespace:Syncfusion.DataSource;assembly=Syncfusion.DataSource.Portable"
+    xmlns:sfbutton="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+    xmlns:sfnavigation="clr-namespace:Syncfusion.SfNavigationDrawer.XForms;assembly=Syncfusion.SfNavigationDrawer.XForms"
+    Title="Menu Utama"
+    x:Class="Akuntansi.View.Home.HomeAdminView">
+    <sfnavigation:SfNavigationDrawer Style="{StaticResource BaseSfNavigation}"
+                                     x:Name="Navigation_Home">
+        <sfnavigation:SfNavigationDrawer.Resources>
+            <Style x:Key="SfButtonHome" TargetType="sfbutton:SfButton">
+                <Setter Property="HeightRequest"
+                        Value="70"/>
+                <Setter Property="BackgroundColor"
+                        Value="Transparent"/>
+                <Setter Property="TextColor"
+                        Value="{AppThemeBinding Dark={StaticResource Key=LabelDarkMode},Light={StaticResource Key=LabelLightMode},Default={StaticResource Key=LabelLightMode}}"/>
+                <Setter Property="ShowIcon"
+                        Value="True"/>
+            </Style>
+        </sfnavigation:SfNavigationDrawer.Resources>
+        <sfnavigation:SfNavigationDrawer.BindingContext>
+            <Model:HomeModel/>
+        </sfnavigation:SfNavigationDrawer.BindingContext>
+        <sfnavigation:SfNavigationDrawer.DrawerHeaderView>
+            <StackLayout Style="{StaticResource Key=BaseStackLayout2}"
+                         HorizontalOptions="CenterAndExpand"
+                         VerticalOptions="StartAndExpand">
+                <sfavatar:SfAvatarView Style="{StaticResource Key=BaseSfAvatar}"
+                                       ImageSource="{Binding GreetingIMG}"
+                                       HeightRequest="60"
+                                       WidthRequest="60"
+                                       Margin="10">
+                    <sfavatar:SfAvatarView.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding HomeNavigation}"/>
+                    </sfavatar:SfAvatarView.GestureRecognizers>
+                </sfavatar:SfAvatarView>
+                <Label Style="{StaticResource Key=BaseLabelLarge}"
+                       HorizontalTextAlignment="Center">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Hello Selamat "/>
+                            <Span Text="{Binding Greeting}"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Label Style="{StaticResource Key=BaseLabelMedium}"
+                       Text="{Binding Username}"
+                       HorizontalTextAlignment="Center"/>
+            </StackLayout>
+        </sfnavigation:SfNavigationDrawer.DrawerHeaderView>
+        <sfnavigation:SfNavigationDrawer.DrawerContentView>
+            <StackLayout Style="{StaticResource Key=BaseStackLayout}"
+                         HorizontalOptions="FillAndExpand"
+                         VerticalOptions="FillAndExpand">
+                <ScrollView Style="{StaticResource Key=BaseScrollView}">
+                    <StackLayout HorizontalOptions="FillAndExpand"
+                                 VerticalOptions="FillAndExpand">
+                        <sfbutton:SfButton Style="{StaticResource Key=SfButtonHome}"
+                                           Text="Profile"
+                                           Command="{Binding Profile}"/>
+                        <sfbutton:SfButton Style="{StaticResource Key=SfButtonHome}"
+                                           Text="Transaksi Baru"
+                                           Command="{Binding TransaksiBaru}"/>
+                        <sfbutton:SfButton Style="{StaticResource Key=SfButtonHome}"
+                                           Text="Laporan Pemasukan"
+                                           Command="{Binding LaporanPemasukan}"/>
+                        <sfbutton:SfButton Style="{StaticResource Key=SfButtonHome}"
+                                           Text="Laporan Pengeluaran"/>
+                        <sfbutton:SfButton Style="{StaticResource Key=SfButtonHome}"
+                                           Text="Daftar User"/>
+                    </StackLayout>
+                </ScrollView>
+            </StackLayout>
+        </sfnavigation:SfNavigationDrawer.DrawerContentView>
+        <sfnavigation:SfNavigationDrawer.ContentView>
+            <StackLayout HorizontalOptions="FillAndExpand"
+                         VerticalOptions="FillAndExpand"
+                         Spacing="-1">
+                <sfbusy:SfBusyIndicator Style="{StaticResource Key=BaseSfBusy}"
+                                        IsBusy="{Binding IsBusy}"
+                                        Title="{Binding LoadingTxt}"/>
+                <StackLayout Style="{StaticResource Key=BaseStackLayout2}"
+                             HorizontalOptions="FillAndExpand"
+                             VerticalOptions="StartAndExpand"
+                             Orientation="Horizontal"
+                             HeightRequest="45">
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding HomeNavigation, Mode=OneWay}"/>
+                    </StackLayout.GestureRecognizers>
+                    <sfavatar:SfAvatarView Style="{StaticResource Key=BaseSfAvatar}"
+                                           ImageSource="Click.png"
+                                           HeightRequest="30"
+                                           WidthRequest="30"/>
+                    <Label Style="{StaticResource BaseLabelMedium}"
+                           Text="Menu"
+                           VerticalTextAlignment="Center"/>
+                </StackLayout>
+                <StackLayout Style="{StaticResource Key=BaseStackLayout}"
+                             HorizontalOptions="FillAndExpand"
+                             VerticalOptions="StartAndExpand">
+                    <ScrollView Style="{StaticResource Key=BaseScrollView}">
+                        <Grid HorizontalOptions="FillAndExpand"
+                              VerticalOptions="StartAndExpand"
+                              Margin="5"
+                              RowSpacing="10">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="50*"/>
+                                <ColumnDefinition Width="50*"/>
+                            </Grid.ColumnDefinitions>
+                            <sfborder:SfBorder Style="{StaticResource Key=BaseSfBorder}"
+                                               HeightRequest="150"
+                                               Grid.Column="0"
+                                               Grid.Row="0"
+                                               Grid.ColumnSpan="2">
+                                <Grid HorizontalOptions="Fill"
+                                      VerticalOptions="Start"
+                                      Margin="20,20,20,0"
+                                      RowSpacing="20">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="50*"/>
+                                        <ColumnDefinition Width="50*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Label Text="Total Bulan Ini"
+                                           Style="{StaticResource Key=BaseLabelMedium}"
+                                           Grid.Column="0"
+                                           Grid.Row="0"/>
+                                    <Label Text="{Binding Total}"
+                                           Style="{StaticResource Key=BaseLabelLarge}"
+                                           Grid.Column="0"
+                                           Grid.Row="1"/>
+                                    <Label Style="{StaticResource Key=BaseLabelSmall}"
+                                           Grid.Column="0"
+                                           Grid.Row="2">
+                                        <Label.FormattedText>
+                                            <FormattedString>
+                                                <Span Text="Bulan "/>
+                                                <Span Text="{Binding Month}"/>
+                                            </FormattedString>
+                                        </Label.FormattedText>
+                                    </Label>
+                                    <sfavatar:SfAvatarView Style="{StaticResource Key=BaseSfAvatar}"
+                                                           ImageSource="HomeIco.png"
+                                                           Grid.Column="1"
+                                                           Grid.Row="0"
+                                                           Grid.RowSpan="3"/>
+                                </Grid>
+                            </sfborder:SfBorder>
+                            <Label Text="Penggunaan Bulan Ini"
+                                   Style="{StaticResource Key=BaseLabelMedium}"
+                                   Grid.Column="0"
+                                   Grid.Row="1"/>
+                            <sfcard:SfCardLayout Style="{StaticResource Key=BaseSfCardLayout}"
+                                                 Grid.Column="0"
+                                                 Grid.Row="2"
+                                                 Grid.ColumnSpan="2">
+                                <sfcard:SfCardView Style="{StaticResource Key=BaseSfCardView1}">
+                                    <StackLayout HorizontalOptions="Center"
+                                                 VerticalOptions="Start"
+                                                 Orientation="Vertical"
+                                                 Margin="20"
+                                                 Spacing="10">
+                                        <Label Text="Pemasukan"
+                                               Style="{StaticResource Key=BaseLabelLarge}"/>
+                                        <Label Text="{Binding Pemasukan}"
+                                               Style="{StaticResource Key=BaseLabelLarge}"/>
+                                    </StackLayout>
+                                </sfcard:SfCardView>
+                                <sfcard:SfCardView Style="{StaticResource Key=BaseSfCardView2}">
+                                    <StackLayout HorizontalOptions="Center"
+                                                 VerticalOptions="Start"
+                                                 Orientation="Vertical"
+                                                 Margin="20"
+                                                 Spacing="10">
+                                        <Label Text="Pengeluaran"
+                                               Style="{StaticResource Key=BaseLabelLarge}"/>
+                                        <Label Text="{Binding Pengeluaran}"
+                                               Style="{StaticResource Key=BaseLabelLarge}"/>
+                                    </StackLayout>
+                                </sfcard:SfCardView>
+                                <sfcard:SfCardView Style="{StaticResource Key=BaseSfCardView1}">
+                                    <StackLayout HorizontalOptions="Center"
+                                                 VerticalOptions="Start"
+                                                 Orientation="Vertical"
+                                                 Margin="20"
+                                                 Spacing="10">
+                                        <Label Text="Limit Perbulan"
+                                               Style="{StaticResource Key=BaseLabelLarge}"/>
+                                        <Label Text="{Binding Limit}"
+                                               Style="{StaticResource Key=BaseLabelLarge}"/>
+                                    </StackLayout>
+                                </sfcard:SfCardView>
+                            </sfcard:SfCardLayout>
+                            <Label Text="Transaksi Terakhir"
+                                   Style="{StaticResource Key=BaseLabelMedium}"
+                                   Grid.Column="0"
+                                   Grid.Row="3"/>
+                            <Label Text="Lihat Semua"
+                                   Style="{StaticResource Key=BaseLabelMedium}"
+                                   HorizontalTextAlignment="End"
+                                   Grid.Column="1"
+                                   Grid.Row="3">
+                                <Label.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding RiwayatTransaksi}"/>
+                                </Label.GestureRecognizers>
+                            </Label>
+                            <sflistview:SfListView Style="{StaticResource Key=BaseSfListView}"
+                                                   ItemsSource="{Binding ListTransaksiTerakhir}"
+                                                   Margin="0,10,0,0"
+                                                   HeightRequest="730"
+                                                   Grid.Column="0"
+                                                   Grid.Row="4"
+                                                   Grid.ColumnSpan="2">
+                                <sflistview:SfListView.DataSource>
+                                    <sfdata:DataSource>
+                                        <sfdata:DataSource.GroupDescriptors>
+                                            <sfdata:GroupDescriptor PropertyName="ListTanggal"/>
+                                        </sfdata:DataSource.GroupDescriptors>
+                                    </sfdata:DataSource>
+                                </sflistview:SfListView.DataSource>
+                                <sflistview:SfListView.ItemTemplate>
+                                    <DataTemplate>
+                                        <StackLayout HorizontalOptions="FillAndExpand"
+                                                     VerticalOptions="FillAndExpand">
+                                            <sfborder:SfBorder Style="{StaticResource Key=BaseSfBorder}"/>
+                                            <Grid>
+                                                <Grid.RowDefinitions>
+                                                    <RowDefinition Height="50"/>
+                                                    <RowDefinition Height="50"/>
+                                                </Grid.RowDefinitions>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="*"/>
+                                                    <ColumnDefinition Width="*"/>
+                                                    <ColumnDefinition Width="*"/>
+                                                </Grid.ColumnDefinitions>
+                                                <sfavatar:SfAvatarView Style="{StaticResource Key=BaseSfAvatar}"
+                                                                       ImageSource="Transaction.png"
+                                                                       Grid.Column="0"
+                                                                       Grid.Row="0"
+                                                                       Grid.RowSpan="2"/>
+                                                <Label Style="{StaticResource Key=BaseLabelMedium}"
+                                                       Text="{Binding ListKeterangan}"
+                                                       Grid.Column="1"
+                                                       Grid.Row="0"/>
+                                                <Label Style="{StaticResource Key=BaseLabelMedium}"
+                                                       Text="{Binding ListKategori}"
+                                                       Grid.Column="1"
+                                                       Grid.Row="1"/>
+                                                <Label Style="{StaticResource Key=BaseLabelMedium}"
+                                                       Text="{Binding ListTipe}"
+                                                       Grid.Column="2"
+                                                       Grid.Row="0"/>
+                                                <Label Style="{StaticResource Key=BaseLabelMedium}"
+                                                       Text="{Binding ListJumlah}"
+                                                       Grid.Column="2"
+                                                       Grid.Row="1"/>
+                                            </Grid>
+                                        </StackLayout>
+                                    </DataTemplate>
+                                </sflistview:SfListView.ItemTemplate>
+                            </sflistview:SfListView>
+                        </Grid>
+                    </ScrollView>
+                </StackLayout>
+            </StackLayout>
+        </sfnavigation:SfNavigationDrawer.ContentView>
+    </sfnavigation:SfNavigationDrawer>
+</ContentPage>
