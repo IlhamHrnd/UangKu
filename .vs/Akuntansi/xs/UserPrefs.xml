@@ -35,9 +35,7 @@
               </Node>
               <Node name="ViewModel" expanded="True">
                 <Node name="Account" expanded="True" />
-                <Node name="Home" expanded="True">
-                  <Node name="HomeViewModel.cs" selected="True" />
-                </Node>
+                <Node name="Home" expanded="True" />
                 <Node name="Index" expanded="True" />
                 <Node name="Root" expanded="True" />
                 <Node name="Transaction" expanded="True" />
@@ -50,7 +48,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Akuntansi.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E22B05D4-FF29-46A8-A29A-F25C870BC6EA" />
+  <MonoDevelop.Ide.ItemProperties.Akuntansi.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B8EA113C-2D85-4DFA-A688-96F45494C2D9" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Akuntansi.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.pixel_2_xl_pie_9_0_-_api_28" />

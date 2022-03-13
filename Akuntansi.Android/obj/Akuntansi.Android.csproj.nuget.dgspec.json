@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.Android/Akuntansi.Android.csproj": {}
+    "/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.Android/Akuntansi.Android.csproj": {}
   },
   "projects": {
-    "/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.Android/Akuntansi.Android.csproj": {
+    "/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.Android/Akuntansi.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.Android/Akuntansi.Android.csproj",
+        "projectUniqueName": "/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.Android/Akuntansi.Android.csproj",
         "projectName": "Akuntansi.Android",
-        "projectPath": "/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.Android/Akuntansi.Android.csproj",
+        "projectPath": "/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.Android/Akuntansi.Android.csproj",
         "packagesPath": "/Users/ilhamhrnd/.nuget/packages/",
-        "outputPath": "/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.Android/obj/",
+        "outputPath": "/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.Android/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
@@ -26,8 +26,8 @@
         "frameworks": {
           "monoandroid10.0": {
             "projectReferences": {
-              "/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi/Akuntansi.csproj": {
-                "projectPath": "/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi/Akuntansi.csproj"
+              "/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi/Akuntansi.csproj": {
+                "projectPath": "/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi/Akuntansi.csproj"
               }
             }
           }
@@ -56,14 +56,14 @@
         }
       }
     },
-    "/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi/Akuntansi.csproj": {
+    "/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi/Akuntansi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi/Akuntansi.csproj",
+        "projectUniqueName": "/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi/Akuntansi.csproj",
         "projectName": "Akuntansi",
-        "projectPath": "/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi/Akuntansi.csproj",
+        "projectPath": "/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi/Akuntansi.csproj",
         "packagesPath": "/Users/ilhamhrnd/.nuget/packages/",
-        "outputPath": "/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi/obj/",
+        "outputPath": "/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ilhamhrnd/.config/NuGet/NuGet.Config"
@@ -96,7 +96,7 @@
             },
             "MySqlConnector": {
               "target": "Package",
-              "version": "[2.1.7, )"
+              "version": "[2.1.8, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -106,47 +106,47 @@
             },
             "Syncfusion.Xamarin.Buttons": {
               "target": "Package",
-              "version": "[19.4.0.54, )"
+              "version": "[19.4.0.55, )"
             },
             "Syncfusion.Xamarin.Cards": {
               "target": "Package",
-              "version": "[19.4.0.54, )"
+              "version": "[19.4.0.55, )"
             },
             "Syncfusion.Xamarin.Core": {
               "target": "Package",
-              "version": "[19.4.0.54, )"
+              "version": "[19.4.0.55, )"
             },
             "Syncfusion.Xamarin.SfBackdrop": {
               "target": "Package",
-              "version": "[19.4.0.54, )"
+              "version": "[19.4.0.55, )"
             },
             "Syncfusion.Xamarin.SfBusyIndicator": {
               "target": "Package",
-              "version": "[19.4.0.54, )"
+              "version": "[19.4.0.55, )"
             },
             "Syncfusion.Xamarin.SfChart": {
               "target": "Package",
-              "version": "[19.4.0.54, )"
+              "version": "[19.4.0.55, )"
             },
             "Syncfusion.Xamarin.SfListView": {
               "target": "Package",
-              "version": "[19.4.0.54, )"
+              "version": "[19.4.0.55, )"
             },
             "Syncfusion.Xamarin.SfNavigationDrawer": {
               "target": "Package",
-              "version": "[19.4.0.54, )"
+              "version": "[19.4.0.55, )"
             },
             "Syncfusion.Xamarin.SfPicker": {
               "target": "Package",
-              "version": "[19.4.0.54, )"
+              "version": "[19.4.0.55, )"
             },
             "Syncfusion.Xamarin.SfPullToRefresh": {
               "target": "Package",
-              "version": "[19.4.0.54, )"
+              "version": "[19.4.0.55, )"
             },
             "Syncfusion.Xamarin.SfTabView": {
               "target": "Package",
-              "version": "[19.4.0.54, )"
+              "version": "[19.4.0.55, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

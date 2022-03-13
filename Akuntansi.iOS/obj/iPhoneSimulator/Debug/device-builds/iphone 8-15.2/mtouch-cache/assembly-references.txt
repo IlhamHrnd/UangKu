@@ -1,4 +1,4 @@
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Akuntansi.iOS.exe
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Akuntansi.iOS.exe
 /Library/Frameworks/Xamarin.iOS.framework/Versions/15.6.0.3/lib/mono/Xamarin.iOS/mscorlib.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/15.6.0.3/lib/mono/Xamarin.iOS/../../64bits/iOS/Xamarin.iOS.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/15.6.0.3/lib/mono/Xamarin.iOS/System.dll
@@ -22,7 +22,7 @@
 /Library/Frameworks/Xamarin.iOS.framework/Versions/15.6.0.3/lib/mono/Xamarin.iOS/System.Web.Services.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/15.6.0.3/lib/mono/Xamarin.iOS/System.Xml.Linq.dll
 /Users/ilhamhrnd/.nuget/packages/xamarin.forms/5.0.0.2337/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi/bin/Debug/netstandard2.0/Akuntansi.dll
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi/bin/Debug/netstandard2.0/Akuntansi.dll
 /Users/ilhamhrnd/.nuget/packages/xamarin.forms/5.0.0.2337/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll
 /Users/ilhamhrnd/.nuget/packages/mysqlconnector/2.1.7/lib/netstandard2.1/MySqlConnector.dll
 /Users/ilhamhrnd/.nuget/packages/system.diagnostics.diagnosticsource/5.0.1/lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll

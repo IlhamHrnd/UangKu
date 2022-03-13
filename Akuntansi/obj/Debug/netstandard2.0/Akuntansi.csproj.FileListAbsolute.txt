@@ -61,3 +61,27 @@ E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntans
 /Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/Akuntansi.csproj.AssemblyReference.cache
 /Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/View/Account/ProfileView.xaml.g.cs
 /Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi/obj/Debug/netstandard2.0/View/Home/HomeUserView.xaml.g.cs
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi/bin/Debug/netstandard2.0/Akuntansi.deps.json
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi/bin/Debug/netstandard2.0/Akuntansi.dll
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi/bin/Debug/netstandard2.0/ref/Akuntansi.dll
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi/bin/Debug/netstandard2.0/Akuntansi.pdb
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi/obj/Debug/netstandard2.0/Akuntansi.csproj.AssemblyReference.cache
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi/obj/Debug/netstandard2.0/Akuntansi.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi/obj/Debug/netstandard2.0/View/Account/DaftarBaruView.xaml.g.cs
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi/obj/Debug/netstandard2.0/View/Account/LupaPasswordView.xaml.g.cs
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi/obj/Debug/netstandard2.0/View/Account/ProfileView.xaml.g.cs
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi/obj/Debug/netstandard2.0/View/Home/HomeAdminView.xaml.g.cs
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi/obj/Debug/netstandard2.0/View/Home/HomeUserView.xaml.g.cs
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi/obj/Debug/netstandard2.0/View/Index/LoginView.xaml.g.cs
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi/obj/Debug/netstandard2.0/View/Root/ConnectionErrorView.xaml.g.cs
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi/obj/Debug/netstandard2.0/View/Transaction/PemasukanView.xaml.g.cs
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi/obj/Debug/netstandard2.0/View/Transaction/RiwayatTransaksiView.xaml.g.cs
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi/obj/Debug/netstandard2.0/View/Transaction/TransaksiBaruView.xaml.g.cs
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi/obj/Debug/netstandard2.0/Akuntansi.AssemblyInfoInputs.cache
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi/obj/Debug/netstandard2.0/Akuntansi.AssemblyInfo.cs
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi/obj/Debug/netstandard2.0/Akuntansi.csproj.CoreCompileInputs.cache
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi/obj/Debug/netstandard2.0/Akuntansi.dll
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi/obj/Debug/netstandard2.0/ref/Akuntansi.dll
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi/obj/Debug/netstandard2.0/Akuntansi.pdb

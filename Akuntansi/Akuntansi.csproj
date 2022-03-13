@@ -8,19 +8,19 @@
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2337" />
     <PackageReference Include="Xamarin.Essentials" Version="1.7.1" />
-    <PackageReference Include="MySqlConnector" Version="2.1.7" />
-    <PackageReference Include="Syncfusion.Xamarin.Core" Version="19.4.0.54" />
-    <PackageReference Include="Syncfusion.Xamarin.Buttons" Version="19.4.0.54" />
+    <PackageReference Include="MySqlConnector" Version="2.1.8" />
+    <PackageReference Include="Syncfusion.Xamarin.Core" Version="19.4.0.55" />
+    <PackageReference Include="Syncfusion.Xamarin.Buttons" Version="19.4.0.55" />
     <PackageReference Include="Com.Airbnb.Xamarin.Forms.Lottie" Version="4.1.0" />
-    <PackageReference Include="Syncfusion.Xamarin.SfPullToRefresh" Version="19.4.0.54" />
-    <PackageReference Include="Syncfusion.Xamarin.SfBusyIndicator" Version="19.4.0.54" />
-    <PackageReference Include="Syncfusion.Xamarin.SfBackdrop" Version="19.4.0.54" />
-    <PackageReference Include="Syncfusion.Xamarin.Cards" Version="19.4.0.54" />
-    <PackageReference Include="Syncfusion.Xamarin.SfListView" Version="19.4.0.54" />
-    <PackageReference Include="Syncfusion.Xamarin.SfPicker" Version="19.4.0.54" />
-    <PackageReference Include="Syncfusion.Xamarin.SfNavigationDrawer" Version="19.4.0.54" />
-    <PackageReference Include="Syncfusion.Xamarin.SfChart" Version="19.4.0.54" />
-    <PackageReference Include="Syncfusion.Xamarin.SfTabView" Version="19.4.0.54" />
+    <PackageReference Include="Syncfusion.Xamarin.SfPullToRefresh" Version="19.4.0.55" />
+    <PackageReference Include="Syncfusion.Xamarin.SfBusyIndicator" Version="19.4.0.55" />
+    <PackageReference Include="Syncfusion.Xamarin.SfBackdrop" Version="19.4.0.55" />
+    <PackageReference Include="Syncfusion.Xamarin.Cards" Version="19.4.0.55" />
+    <PackageReference Include="Syncfusion.Xamarin.SfListView" Version="19.4.0.55" />
+    <PackageReference Include="Syncfusion.Xamarin.SfPicker" Version="19.4.0.55" />
+    <PackageReference Include="Syncfusion.Xamarin.SfNavigationDrawer" Version="19.4.0.55" />
+    <PackageReference Include="Syncfusion.Xamarin.SfChart" Version="19.4.0.55" />
+    <PackageReference Include="Syncfusion.Xamarin.SfTabView" Version="19.4.0.55" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Model\" />
