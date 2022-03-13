@@ -65,7 +65,6 @@ E:/Drive Google - IlhamHernadi88/Rencana Penulisan Ilmiah/CrossPlatform/Akuntans
 /Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi/bin/Debug/netstandard2.0/Akuntansi.dll
 /Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi/bin/Debug/netstandard2.0/ref/Akuntansi.dll
 /Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi/bin/Debug/netstandard2.0/Akuntansi.pdb
-/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi/obj/Debug/netstandard2.0/Akuntansi.csproj.AssemblyReference.cache
 /Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi/obj/Debug/netstandard2.0/Akuntansi.GeneratedMSBuildEditorConfig.editorconfig
 /Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi/obj/Debug/netstandard2.0/App.xaml.g.cs
 /Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi/obj/Debug/netstandard2.0/View/Account/DaftarBaruView.xaml.g.cs

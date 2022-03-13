@@ -1,189 +1,3 @@
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Akuntansi.iOS.exe
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Akuntansi.iOS.pdb
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/MySqlConnector.dll
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.dll
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.pdb
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.pdb
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.dll
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.pdb
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/ar/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/ca/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/cs/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/da/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/de/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/el/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/es/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/fi/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/fr/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/he/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/hi/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/hr/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/hu/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/id/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/it/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/ja/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/ko/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/ms/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/nb/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/nl/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/pl/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/pt/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/ro/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/ru/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/sk/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/sv/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/th/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/tr/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/uk/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/vi/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Akuntansi.dll
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Akuntansi.pdb
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.pdb
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 6-12.4/ibtool/_BundleResourceWithLogicalName.items
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 6-12.4/actool/_PartialAppManifest.items
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 6-12.4/actool/_BundleResourceWithLogicalName.items
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 6-12.4/coremlc/_PartialAppManifest.items
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 6-12.4/coremlc/_BundleResourceWithLogicalName.items
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 6-12.4/optimized/HomeIco.png
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 6-12.4/optimized/Transaction.png
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 6-12.4/optimized/Info.png
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 6-12.4/optimized/Settings.png
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 6-12.4/optimized/LogoGunadarma.png
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 6-12.4/optimized/Login.png
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 6-12.4/optimized/
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/Akuntansi.iOS.csprojAssemblyReference.cache
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/Akuntansi.iOS.csproj.CoreCompileInputs.cache
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/Akuntansi.iOS.csproj.CopyComplete
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/Akuntansi.iOS.exe
-/Users/ilhamhrnd/Google Drive/Rencana Penulisan Ilmiah/CrossPlatform/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/Akuntansi.iOS.pdb
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Akuntansi.iOS.exe
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Akuntansi.iOS.pdb
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Lottie.iOS.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Lottie.iOS.pdb
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Lottie.Forms.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Lottie.Forms.pdb
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/MySqlConnector.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Syncfusion.Licensing.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Syncfusion.Buttons.XForms.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Syncfusion.Buttons.XForms.iOS.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Syncfusion.Cards.XForms.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Syncfusion.Cards.XForms.iOS.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Syncfusion.Core.XForms.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Syncfusion.Core.XForms.iOS.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Syncfusion.DataSource.Portable.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Syncfusion.GridCommon.Portable.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Syncfusion.SfBackdrop.XForms.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Syncfusion.SfBackdrop.XForms.iOS.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Syncfusion.SfBusyIndicator.XForms.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Syncfusion.SfBusyIndicator.XForms.iOS.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Syncfusion.SfBusyIndicator.iOS.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Syncfusion.SfChart.XForms.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Syncfusion.SfChart.XForms.iOS.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Syncfusion.SfListView.XForms.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Syncfusion.SfListView.XForms.iOS.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Syncfusion.SfNavigationDrawer.XForms.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Syncfusion.SfNavigationDrawer.XForms.iOS.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Syncfusion.SfNavigationDrawer.iOS.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Syncfusion.SfPicker.XForms.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Syncfusion.SfPicker.XForms.iOS.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Syncfusion.SfPicker.iOS.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Syncfusion.SfPullToRefresh.XForms.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Syncfusion.SfPullToRefresh.XForms.iOS.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/System.Diagnostics.DiagnosticSource.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/System.Runtime.CompilerServices.Unsafe.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.pdb
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.pdb
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.pdb
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.pdb
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/ar/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/ca/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/cs/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/da/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/de/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/el/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/es/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/fi/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/fr/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/he/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/hi/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/hr/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/hu/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/id/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/it/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/ja/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/ko/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/ms/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/nb/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/nl/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/pl/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/pt/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/ro/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/ru/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/sk/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/sv/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/th/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/tr/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/uk/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/vi/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Akuntansi.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Akuntansi.pdb
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/actool/_PartialAppManifest.items
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/actool/_BundleResourceWithLogicalName.items
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/actool/_ProcessedImageAssetsPath.items
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/ibtool/_BundleResourceWithLogicalName.items
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/ibtool/_ProcessedInterfaceDefinitionsPath.items
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/coremlc/_PartialAppManifest.items
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/coremlc/_BundleResourceWithLogicalName.items
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/coremlc/_ProcessedCoreMLModelsPath.items
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/_ProcessedBundleResourcesPath.items
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/_ProcessedContentPath.items
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/optimized/HomeIco.png
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/optimized/Transaction.png
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/optimized/Info.png
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/optimized/Settings.png
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/optimized/LogoGunadarma.png
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/optimized/Login.png
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/optimized/Click.png
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/optimized/DaftarBaru.png
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/optimized/Malam.png
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/optimized/NamaBelakang.png
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/optimized/NamaDepan.png
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/optimized/Pagi.png
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/optimized/Password.png
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/optimized/ResetPassword.png
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/optimized/Siang.png
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/optimized/Sore.png
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/optimized/Username.png
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/optimized/Admin.png
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/optimized/User.png
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/optimized/Pemasukan.png
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/optimized/Pengeluaran.png
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/optimized/Hapus.png
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/optimized/Update.png
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/optimized/
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/Akuntansi.iOS.csproj.AssemblyReference.cache
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/Akuntansi.iOS.csproj.CoreCompileInputs.cache
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/Akuntansi.iOS.csproj.CopyComplete
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/Akuntansi.iOS.exe
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/obj/iPhoneSimulator/Debug/Akuntansi.iOS.pdb
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Syncfusion.SfTabView.XForms.dll
-/Users/ilhamhrnd/Google Drive/Project/UangKu/Akuntansi/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Syncfusion.SfTabView.XForms.iOS.dll
 /Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Akuntansi.iOS.exe
 /Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Akuntansi.iOS.pdb
 /Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Lottie.iOS.dll
@@ -266,40 +80,40 @@
 /Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/bin/iPhoneSimulator/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Akuntansi.dll
 /Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/bin/iPhoneSimulator/Debug/Akuntansi.pdb
-/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/actool/_PartialAppManifest.items
-/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/actool/_BundleResourceWithLogicalName.items
-/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/actool/_ProcessedImageAssetsPath.items
-/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/ibtool/_BundleResourceWithLogicalName.items
-/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/ibtool/_ProcessedInterfaceDefinitionsPath.items
-/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/coremlc/_PartialAppManifest.items
-/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/coremlc/_BundleResourceWithLogicalName.items
-/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/coremlc/_ProcessedCoreMLModelsPath.items
-/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/_ProcessedBundleResourcesPath.items
-/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/_ProcessedContentPath.items
-/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/optimized/HomeIco.png
-/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/optimized/Transaction.png
-/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/optimized/Info.png
-/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/optimized/Settings.png
-/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/optimized/LogoGunadarma.png
-/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/optimized/Login.png
-/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/optimized/Click.png
-/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/optimized/DaftarBaru.png
-/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/optimized/Malam.png
-/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/optimized/NamaBelakang.png
-/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/optimized/NamaDepan.png
-/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/optimized/Pagi.png
-/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/optimized/Password.png
-/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/optimized/ResetPassword.png
-/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/optimized/Siang.png
-/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/optimized/Sore.png
-/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/optimized/Username.png
-/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/optimized/Admin.png
-/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/optimized/User.png
-/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/optimized/Pemasukan.png
-/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/optimized/Pengeluaran.png
-/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/optimized/Hapus.png
-/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/optimized/Update.png
-/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.2/optimized/
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/actool/_ProcessedImageAssetsPath.items
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/ibtool/_ProcessedInterfaceDefinitionsPath.items
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/coremlc/_PartialAppManifest.items
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/coremlc/_BundleResourceWithLogicalName.items
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/coremlc/_ProcessedCoreMLModelsPath.items
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/_ProcessedBundleResourcesPath.items
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/_ProcessedContentPath.items
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/optimized/HomeIco.png
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/optimized/Transaction.png
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/optimized/Info.png
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/optimized/Settings.png
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/optimized/LogoGunadarma.png
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/optimized/Login.png
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/optimized/Click.png
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/optimized/DaftarBaru.png
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/optimized/Malam.png
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/optimized/NamaBelakang.png
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/optimized/NamaDepan.png
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/optimized/Pagi.png
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/optimized/Password.png
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/optimized/ResetPassword.png
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/optimized/Siang.png
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/optimized/Sore.png
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/optimized/Username.png
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/optimized/Admin.png
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/optimized/User.png
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/optimized/Pemasukan.png
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/optimized/Pengeluaran.png
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/optimized/Hapus.png
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/optimized/Update.png
+/Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/optimized/
 /Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/Akuntansi.iOS.csproj.AssemblyReference.cache
 /Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/Akuntansi.iOS.csproj.CoreCompileInputs.cache
 /Users/ilhamhrnd/Documents/Github/UangKu/Akuntansi.iOS/obj/iPhoneSimulator/Debug/Akuntansi.iOS.csproj.CopyComplete

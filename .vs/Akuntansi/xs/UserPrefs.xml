@@ -1,5 +1,5 @@
-﻿<Properties StartupConfiguration="{61B8C96D-307C-43EC-B40B-E4A3BA449A73}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Akuntansi/ViewModel/Home/HomeViewModel.cs">
+﻿<Properties StartupConfiguration="{D843B683-C719-4B81-93EB-737591E6FD16}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Akuntansi/View/Home/HomeUserView.xaml.cs">
     <Files>
       <File FileName="Akuntansi/App.xaml" Line="70" Column="213" IsPinned="True" />
       <File FileName="Akuntansi/Model/Home/HomeModel.cs" />
@@ -8,7 +8,7 @@
       <File FileName="Akuntansi/ViewModel/Home/HomeViewModel.cs" Line="74" Column="33" />
       <File FileName="Akuntansi/View/Transaction/PemasukanView.xaml" />
       <File FileName="Akuntansi/View/Home/HomeUserView.xaml" />
-      <File FileName="Akuntansi/View/Home/HomeUserView.xaml.cs" />
+      <File FileName="Akuntansi/View/Home/HomeUserView.xaml.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -29,7 +29,9 @@
                 </Node>
                 <Node name="Home" expanded="True">
                   <Node name="HomeAdminView.xaml" expanded="True" />
-                  <Node name="HomeUserView.xaml" expanded="True" />
+                  <Node name="HomeUserView.xaml" expanded="True">
+                    <Node name="HomeUserView.xaml.cs" selected="True" />
+                  </Node>
                 </Node>
                 <Node name="Transaction" expanded="True" />
               </Node>
@@ -48,7 +50,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Akuntansi.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B8EA113C-2D85-4DFA-A688-96F45494C2D9" />
+  <MonoDevelop.Ide.ItemProperties.Akuntansi.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E22B05D4-FF29-46A8-A29A-F25C870BC6EA" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Akuntansi.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.pixel_2_xl_pie_9_0_-_api_28" />
