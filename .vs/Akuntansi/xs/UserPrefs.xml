@@ -15,11 +15,8 @@
         <State name="__root__">
           <Node name="Akuntansi" expanded="True">
             <Node name="Akuntansi" expanded="True">
+              <Node name="Dependencies" selected="True" />
               <Node name="Model" expanded="True">
-                <Node name="Account" expanded="True" />
-                <Node name="Helper" expanded="True" />
-                <Node name="Home" expanded="True" />
-                <Node name="Index" expanded="True" />
                 <Node name="Root" expanded="True" />
                 <Node name="Transaction" expanded="True" />
               </Node>
@@ -29,9 +26,7 @@
                 </Node>
                 <Node name="Home" expanded="True">
                   <Node name="HomeAdminView.xaml" expanded="True" />
-                  <Node name="HomeUserView.xaml" expanded="True">
-                    <Node name="HomeUserView.xaml.cs" selected="True" />
-                  </Node>
+                  <Node name="HomeUserView.xaml" expanded="True" />
                 </Node>
                 <Node name="Transaction" expanded="True" />
               </Node>
