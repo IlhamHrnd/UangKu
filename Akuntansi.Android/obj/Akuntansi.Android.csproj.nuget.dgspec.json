@@ -106,47 +106,47 @@
             },
             "Syncfusion.Xamarin.Buttons": {
               "target": "Package",
-              "version": "[19.4.0.55, )"
+              "version": "[19.4.0.56, )"
             },
             "Syncfusion.Xamarin.Cards": {
               "target": "Package",
-              "version": "[19.4.0.55, )"
+              "version": "[19.4.0.56, )"
             },
             "Syncfusion.Xamarin.Core": {
               "target": "Package",
-              "version": "[19.4.0.55, )"
+              "version": "[19.4.0.56, )"
             },
             "Syncfusion.Xamarin.SfBackdrop": {
               "target": "Package",
-              "version": "[19.4.0.55, )"
+              "version": "[19.4.0.56, )"
             },
             "Syncfusion.Xamarin.SfBusyIndicator": {
               "target": "Package",
-              "version": "[19.4.0.55, )"
+              "version": "[19.4.0.56, )"
             },
             "Syncfusion.Xamarin.SfChart": {
               "target": "Package",
-              "version": "[19.4.0.55, )"
+              "version": "[19.4.0.56, )"
             },
             "Syncfusion.Xamarin.SfListView": {
               "target": "Package",
-              "version": "[19.4.0.55, )"
+              "version": "[19.4.0.56, )"
             },
             "Syncfusion.Xamarin.SfNavigationDrawer": {
               "target": "Package",
-              "version": "[19.4.0.55, )"
+              "version": "[19.4.0.56, )"
             },
             "Syncfusion.Xamarin.SfPicker": {
               "target": "Package",
-              "version": "[19.4.0.55, )"
+              "version": "[19.4.0.56, )"
             },
             "Syncfusion.Xamarin.SfPullToRefresh": {
               "target": "Package",
-              "version": "[19.4.0.55, )"
+              "version": "[19.4.0.56, )"
             },
             "Syncfusion.Xamarin.SfTabView": {
               "target": "Package",
-              "version": "[19.4.0.55, )"
+              "version": "[19.4.0.56, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
